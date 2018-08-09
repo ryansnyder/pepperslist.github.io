@@ -35,8 +35,15 @@ h1 {
   padding: 5px 0;	
 } 
 h2 {
-  margin-top: 30px;	
+  margin: 30px 0;	
 }
+h3 {
+  margin: 30px 0;	
+}
+h4 {
+  margin: 30px 0;	
+}
+
 p {
   font-size: 14pt;
 }
@@ -115,7 +122,15 @@ div.img {
   margin: 30px 0;
 }
 
+/* IMAGES
+-------------------------------------------------- */
 
+img.photo {
+  box-shadow: 0 0 3px #54301a;
+  border: 3px solid white;
+  overflow: hidden;
+  margin: 15px 0;
+}
 
 
 /* BUTTONS
@@ -143,4 +158,364 @@ div.img {
 
 #backToTop {
   margin: 30px 0;	
+}
+
+/* RESPONSIVE
+--------------------------------------------------- */
+
+@media(max-width:766px){
+  .hide-under-768 {
+    display: none !important;	
+  }
+  .show-under-768 {
+    display: inline;	
+  }
+  h1 {
+    font-size: 24pt;
+    margin: 10px 0 30px 0;
+    padding: 5px 0;	
+  }
+  h1.landing-page {
+    margin: 0 0 30px 0;
+  }
+  h2 {
+    margin-top: 30px;	
+  }
+  h3.landing-page {
+	font-size: 18pt	;
+    margin: 50px 0;	
+  }
+  h4 {
+    font-size: 14pt;
+    line-height: 28pt;
+  }
+  h4.balance {
+    font-size: 24pt;
+    font-weight: 100;
+    margin-top: 15px;
+  }                               
+  h4 i {
+    font-size: .5em;
+  }
+  h4.landing-page {
+    margin-bottom: 30px; 	
+  }
+  h5 { /* SECTION HEADER */
+    font-size: 9pt !important; /* 14pt; */ 
+    letter-spacing: .1em;
+    line-height: 20pt; /* 24pt; */ 
+    margin: 0;
+  }
+  h6 { /* FEATURE TEXT */
+    font-size: 18pt; /* 24pt; */
+    line-height: 24pt; /* 36pt; */
+  }
+  p {
+    font-size:  14pt;
+    line-height: 20pt;
+  }
+  span.container-header {
+    font-size: 11pt;	
+  }
+  span.container-data {
+    font-size: 18pt;  	
+  }
+  span.container-meta {
+    font-size: 11pt;  	
+  }
+  span.container-tiny {
+	color: #999;
+    font-size: 7pt !important;  	
+  }
+  .datetime {
+    font-size: 9pt;  	
+  }
+  .nav-left {
+    font-size: 20pt;
+  }
+  .nav-right {
+    font-size: 12pt;	
+  }
+  .nav-bars {
+    display: inline-block;	
+  }
+  div.container {
+    padding: 0 22px;
+  }
+  div.landing-page-summary-left {
+    text-align: center;	
+  }
+  div.landing-page-summary-right {
+    text-align: center;	
+  }
+  div.landing-page-funds-comparison {
+    margin-top: 30px;	
+    text-align: center;
+  }
+  div.landing-page-funds-comparison span.container-data {
+    font-size: 22pt;	
+  }
+  div.landing-page-funds-comparison span.container-data i,
+  div.landing-page-funds-comparison span.container-data span.percentage {
+	font-size: 12pt; 
+	margin: 0 5px;
+  }
+  div.allocations-left,
+  div.performance-left {
+	margin-bottom: 30px;
+  }
+  img.logo {
+	border: 0 !important;
+    height: 38px;
+    margin-top: 12px;
+    width: 120px;
+  }
+  img.orange-money {
+    height: 130px;
+    width: 230px;
+  }
+  div.orange-money-empty {
+    background-image: url("../images/orange_money_empty.png");	
+    background-size: 230px 103px;	
+    height: 103px;
+    width: 230px;
+  }
+  .orange-money-progress-bar {
+    background-color: transparent;
+    border-radius: 0;
+    height: 103px;
+    margin: 0;
+    padding: 0;
+    width: 230px;
+  }
+  .orange-money-progress-bar-fill {
+    background-color: #F58000;
+    border-radius: 0;
+    display: block;
+    height: 103px;
+    margin: 0;
+    opacity: .8;
+    padding: 0;
+    transition: width 500ms ease-in-out;
+  }
+  #stats-container,
+  .stats-container {
+    display: none;	
+  }
+  .th-amount, .td-amount,
+  .th-type, .td-type,
+  .th-risk, .td-risk,
+  .th-1yr, .td-1yr,
+  .th-5yr, .td-5yr {
+    display: none;	
+  }
+  .btn, tag {
+    border-radius: 12px !important;
+    font-size: 6pt !important;
+    min-width: 70px;
+    padding: 4px 6px !important;
+  }
+  #commit-changes {
+  }
+  table.fund-facts > tbody > tr > td {
+    min-width: 120px;	
+  }
+  table.unit-share-price > thead > tr > th {
+    font-size: 10pt;		
+  }
+  table.unit-share-price > tbody > tr > td {
+    font-size: 12pt;	
+  }
+  .stats-container-legend {
+    display: none;
+  }
+}
+@media(min-width:767px){
+  .hide-under-768 {
+    display: inline;	
+  }
+  .show-under-768 {
+    display: none;	
+  }
+  h1 {
+    font-size: 32pt;
+    margin: 10px 0 50px 0;
+    padding: 5px 0;	
+  }
+  h1.landing-page {
+    margin: 0 0 30px 0;
+  }
+  h2 {
+    margin-top: 30px;	
+  }
+  h3.landing-page {
+    margin: 50px 0;	
+  }
+  h4 {
+    font-size: 14pt;
+    line-height: 28pt;
+  }
+  h4 i {
+    font-size: .5em;
+  }
+  h4.balance {
+    font-size: 24pt;
+    font-weight: 100;
+    margin-top: 15px;
+  }                               
+  h5 { /* SECTION HEADER */
+    font-size: 9pt !important; /* 14pt; */ 
+    letter-spacing: .1em;
+    line-height: 20pt; /* 24pt; */ 
+    margin: 0;
+  }
+  h6 { /* FEATURE TEXT */
+    font-size: 18pt; /* 24pt; */
+    line-height: 24pt; /* 36pt; */
+  }
+  p {
+    font-size:  14pt;
+    line-height: 20pt;
+  }
+  span.container-header {
+    font-size: 11pt;	
+  }
+  span.container-data {
+    font-size: 18pt;  	
+  }
+  span.container-meta {
+    font-size: 8pt;  	
+  }
+  span.container-tiny {
+    font-size: 7pt;  	
+  }
+  .datetime {
+    font-size: 9pt;  	
+  }
+  .nav-left {
+    font-size: 30pt;
+  }
+  .nav-right {
+    font-size: 16pt;	
+  }
+  .nav-bars {
+    display: none;	
+  }
+  div.container {
+    padding: 0 66px;
+  }
+  div.landing-page-summary-left {
+    text-align: left;	
+  }
+  div.landing-page-summary-right {
+    text-align: right;	
+  }
+  div.landing-page-funds-comparison {
+    margin-top: 60px;	
+    text-align: center;
+  }
+  div.landing-page-funds-comparison span.container-data {
+    font-size: 22pt;	
+  }
+  div.landing-page-funds-comparison span.container-data i,
+  div.landing-page-funds-comparison span.container-data span.percentage {
+	font-size: 12pt;
+	margin: 0 5px; 
+  }
+  div.performance-left,
+  div.allocations-left {
+	padding-right: 50px; 
+	margin-bottom: 30px;
+  }
+  .container-meta {
+    	
+  }
+  img.logo {
+    height: 47px;
+    width: 150px;
+  }
+  img.orange-money {
+    height: 169px;
+    width: 300px;
+  }
+  div.orange-money-empty {
+    background-image: url("../images/orange_money_empty.png");	
+    background-size: 300px 134px;	
+    height: 134px;
+    max-height: 134px;
+    min-height: 134px;
+    max-width: 300px;
+    min-width: 300px;
+    width: 300px;
+    margin: 0;
+    padding: 0;
+  }
+  .orange-money-progress-bar {
+    background-color: transparent;
+    border-radius: 0;
+    height: 134px;
+    margin: 0;
+    padding: 0;
+    width: 300px;
+  }
+  
+  .orange-money-progress-bar-fill {
+    background-color: #F58000;
+    border-radius: 0;
+    display: block;
+    height: 134px;
+    margin: 0;
+    opacity: .8;
+    padding: 0;
+    transition: width 500ms ease-in-out;
+    width: 51%;
+  }
+  #stats-container,
+  .stats-container {
+    min-width: 270px; 
+    min-height: 400px; 
+    margin: 10px auto;
+  }  
+  .stats-container-resized {
+    min-height: 140px !important; 
+    height: 140px !important;
+    max-height: 140px !important; 
+    z-index: 99;
+  }  
+  .th-fund, .td-fund,
+  .th-type, .td-type,
+  .th-amount, .td-amount,
+  .th-risk, .td-risk,
+  .th-1yr, .td-1yr,
+  .th-5yr, .td-5yr,
+  .th-10yr, .td-10yr {
+    display: table-cell;	
+  } 
+  .btn, tag {
+    border-radius: 14px !important;
+    font-size: 7pt !important;
+    min-width: 100px;
+    padding: 7px 12px !important;
+  }
+  .btn-large {
+    border-radius: 20px !important;
+    font-size: 10pt !important;
+    min-width: 140px;
+    padding: 10px 15px !important;
+  }
+  #commit-changes {
+  }
+  table.fund-facts > tbody > tr > td {
+    min-width: 240px;	
+  }
+  table.unit-share-price > thead > tr > th {
+    font-size: 11pt;		
+  }
+  table.unit-share-price > tbody > tr > td {
+    font-size: 14pt;	
+  }
+  .stats-container-legend {
+	display: block;
+    margin: 10px 0 60px 0;
+  }
 }
