@@ -28,6 +28,7 @@
   
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">    
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css"/>    
     <link href="./css/css.css" rel="stylesheet" />    
     
     <title>Pepper's List - Shopping list for babies for first-time mothers</title>
@@ -37,10 +38,54 @@
     <div class="container">        
       <h1>Pepper's List</h1>
       <p>The shopping list you need to prep for your new baby.</p>
+      
+      <table id="shopping-list" class="table">
+        <thead>
+          <tr>
+            <th scope="col">Item</th>
+            <th scope="col">How will I use this?</th>
+            <th scope="col">Do I need this?</th>            
+            <th scope="col">When to buy</th>                        
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><a class="dotted soft-scroll" href="#stroller">Stroller + car seat</a></td>
+            <td>Out and about</td>
+            <td>Mandatory</td>            
+            <td>6th Month</td>                        
+          </tr>
+          <tr>
+            <td><a class="dotted soft-scroll" href="#baby-carrier">Baby carrier</a></td>
+            <td>Out and about</td>
+            <td>Nice to have</td>            
+            <td>8th month</td>                        
+          </tr>
+          <tr>
+            <td><a class="dotted soft-scroll" href="#baby-blanket">Baby blanket</a></td>
+            <td>Out and about</td>
+            <td>Mandatory</td>            
+            <td>6th month</td>                        
+          </tr>
+          <tr>
+            <td><a class="dotted soft-scroll" href="#baby-sling">Change bag + change mat</a></td>
+            <td>Out and about</td>
+            <td>Mandatory</td>            
+            <td>6th month</td>                        
+          </tr>
+          <tr>
+            <td><a class="dotted soft-scroll" href="#baby-sling">Baby sling</a></td>
+            <td>Out and about</td>
+            <td>Nice to have</td>            
+            <td>After birth</td>                        
+          </tr>          
+        </tbody>
+      </table>
 
       <h2>Out and About</h2>
       <hr>
-      
+
+      <a name="stroller"></a>
       <h3>Car Seat and Stroller</h3>
       <p>This might be one of the most expensive items you'll purchase before your newborn arrives. But it's also the item that will frustrate you the most if you don't make the right purchase.</p>      
       <p>As one new mother put it to us, "Don’t fuck around with the stroller. Buy a goodie. I tried to go cheap and ended up returning it. Something that's easy to clean, and rolls like butter with 1 hand. I know this sounds ridiculous but when you’re holding your ice coffee, answering emails and wheeling the little pork chop along, it’s essential."
@@ -48,41 +93,72 @@
       
       <div class="row">
         <div class="col">
-          <h4>Affordable: Chicco Bravo Trio Travel System</h4>
-          <img class="photo" src="https://images-na.ssl-images-amazon.com/images/I/91vOGcjeF1L._SX522_.jpg" />
-          <br /><br />
-          <p><a target="_blank" href="https://www.amazon.com/gp/product/B00YWHYX8W/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00YWHYX8W&linkCode=as2&tag=pepperslist-20&linkId=68236db4063cd1fcc66ab97eb707c354"><img src="//ir-na.amazon-adsystem.com/e/ir?t=pepperslist-20&l=am2&o=1&a=B00YWHYX8W" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /><btn class="btn btn-orange">Buy the Chicco Bravo - $340 - $380 on Amazon</button></a></p>
-          
-          <p><strong>Here's why you'll buy this</strong.></p>
-          <p>You'll buy this model because you're looking for an affordable stroller and carseat, and one that keeps your kiddo safe. This Amazon review right here will tell you all you need to know:</p>
+          <h5>Affordable choice</h5>
+          <h4>Chicco Bravo Trio Travel System</h4>
+          <div class="photo">
+            <img src="https://images-na.ssl-images-amazon.com/images/I/91vOGcjeF1L._SX522_.jpg" />
+          </div>
+          <div class="buy">
+            <a target="_blank" href="https://www.amazon.com/gp/product/B00YWHYX8W/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00YWHYX8W&linkCode=as2&tag=pepperslist-20&linkId=68236db4063cd1fcc66ab97eb707c354"><btn class="btn btn-orange">Buy the Chicco Bravo &mdash; $340 to $380 on Amazon</button></a>
+          </div>          
+          <p>If you're looking for an affordable stroller and car seat, and one that keeps your kiddo safe, this Amazon review right here will tell you all you need to know:</p>
           <p><em>"This was the best money I ever spent. My granddaughter (3 weeks old, 8lbs) was just involved in a car accident. It was a head on collision with all the airbags deployed and both cars totaled. 4 Adults between the two cars all injured with various broken bones. The man in the back seat in the same car sitting right next to my granddaughter was airlifted to shock trauma with a broken back. All the adults were wearing seat belts. But you can imagine the jolt/shock. Ava did not have a scratch. The car Chicco Bravo car seat with the base locking system absorbed the impact and protected her. No doubt this seat with all the safety systems, harness, infant liner, etc. saved her life. I hate to think what would have happened in a cheap seat."</em></p>
         </div>
         <div class="col">
-          <h4>Luxury: UPPAbaby Vista + Nuna Car Seat</h4>
-          <img class="photo" src="https://images-na.ssl-images-amazon.com/images/I/81F7j-gJ7JL._SX522_.jpg" />
-          <br /><br />
+          <h5>Luxury Choice</h5>
+          <h4>UPPAbaby Vista + Nuna Car Seat</h4>
 
-          <p><a target="_blank" href="https://www.amazon.com/gp/product/B01MU2LKDN/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B01MU2LKDN&linkCode=as2&tag=pepperslist-20&linkId=3693815806d787ce3fcecc64d09f98e9"><btn class="btn btn-orange">Buy the UPPAbaby Vista ~$780 on Amazon</button></a></p>
-              
-          <img class="photo" src="https://www.nuna.eu/media/catalog/product/cache/1/image/1800x/040ec09b1e35df139433887a97daa66f/p/i/pipa_base_night_art_fabric_us_-_tisrev_8-31.png" />              
-          <br /><br />
-          <p><a href="https://www.nuna.eu/usa/pipa" target="new"><btn class="btn btn-orange">Buy the Nuna Pipa on Nuna.eu</button></a></a>
-              
-          <p><strong>Here's why you'll buy this</strong.></p>
+          <div class="photo">          
+            <a target="_blank" href="https://www.amazon.com/gp/product/B01MU2LKDN/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B01MU2LKDN&linkCode=as2&tag=pepperslist-20&linkId=3693815806d787ce3fcecc64d09f98e9"><img src="https://images-na.ssl-images-amazon.com/images/I/81F7j-gJ7JL._SX522_.jpg" /></a>
+          </div>
+          <div class="buy">
+            <a target="_blank" href="https://www.amazon.com/gp/product/B01MU2LKDN/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B01MU2LKDN&linkCode=as2&tag=pepperslist-20&linkId=3693815806d787ce3fcecc64d09f98e9"><btn class="btn btn-orange">Buy the UPPAbaby Vista &mdash; $780 on Amazon</button></a>
+          </div>
+
+          <div class="photo">
+            <a href="https://www.nuna.eu/usa/pipa" target="new"><img src="https://www.nuna.eu/media/catalog/product/cache/1/image/1800x/040ec09b1e35df139433887a97daa66f/p/i/pipa_base_night_art_fabric_us_-_tisrev_8-31.png" /></a>
+          </div>
+          <div class="buy">
+            <a href="https://www.nuna.eu/usa/pipa" target="new"><btn class="btn btn-orange">Buy the Nuna Pipa &mdash; $300 on Nuna.eu</button></a>
+          </div>              
+            
           <p>We spent months looking at strollers, and we kinda hated all of them. We were all set to buy the Chicco Bravo, but ended up purchasing the UPPAbaby because it glided along with hardly any muscling, and it folded and expanded so easily that we just did that over and over again in the store &mdash; it felt that good. Like, the salespeople were coming up to us and asking if there was a problem, and we said "Nope", and just went right back to folding and expanding the stroller.</p>
-          <p>For the car seat, you could choose to buy the <a target="_new" href="">UPPAbaby Mesa</a>, and it looks and feels decent enough. But, when you start using the Nuna Pipa, you'll fall in love with the magnetic sun guard that pulls out and clings to the sides of the car seat with so very little effort. The only downside is that you'll need this <a target="_blank" href="https://www.amazon.com/gp/product/B00OAWL4FE/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00OAWL4FE&linkCode=as2&tag=pepperslist-20&linkId=bf4d5607c26ae03f881eac32ea0b0fe8">UPPAbaby VISTA Upper Adapter</a> for the Nuna car seat.</p>
+          <p>For the car seat, you could choose to buy the <a target="_blank" href="https://www.amazon.com/gp/product/B01NBMKNHV/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B01NBMKNHV&linkCode=as2&tag=pepperslist-20&linkId=ca0ee91d8bc217e8f51fd9ef765ae2c5">UPPAbaby Mesa Car Seat</a>, and it looks and feels decent enough. But, when you start using the Nuna Pipa, you'll fall in love with the little details &mdash; like the magnetic sun guard that pulls out and clings to the sides of the car seat with so very little effort. The only downside is that you'll need this <a target="_blank" href="https://www.amazon.com/gp/product/B00OAWL4FE/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00OAWL4FE&linkCode=as2&tag=pepperslist-20&linkId=bf4d5607c26ae03f881eac32ea0b0fe8">UPPAbaby VISTA Upper Adapter</a> for the Nuna car seat.</p>
               
         </div>
       </div>
       
-      <div class="right" style=>
-        <button id="backToTop" class="btn btn-orange">back to top <i class="fas fa-arrow-circle-up"></i></button>
-      </div>
+      <hr>  
+      
+      <a name="baby-carrier"></a>
+      <h3>Baby Carrier</h3>
 
+      <p>You don't have to buy a baby carrier, but you'll be so glad that you did. You can go about your day, doing your normal business, while the baby is right there connected to you. You know &mdash; make dinner, buy groceries, do the laundry &mdash; all without having to lose sight or worry about your little pork chop. Don't bother shopping around &mdash; the Baby Bjorn is the only carrier you're going to need to try. Trust us.</p>
+      
+      <div class="photo">
+        <a target="_blank" href="https://www.amazon.com/gp/product/B002Q0Y8QY/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B002Q0Y8QY&linkCode=as2&tag=pepperslist-20&linkId=ad60a0dd26275cdd5558206607f2a947"><img src="https://images-na.ssl-images-amazon.com/images/I/81Wno3cswsL._SL1500_.jpg" /></a>
+      </div>
+      <div class="buy">
+        <a target="_blank" href="https://www.amazon.com/gp/product/B002Q0Y8QY/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B002Q0Y8QY&linkCode=as2&tag=pepperslist-20&linkId=ad60a0dd26275cdd5558206607f2a947"><btn class="btn btn-orange">Buy the Baby Bjorn Carrier &mdash; $80 on Amazon</button></a>
+      </div>          
+      
+      
+      
+      
     </div> <!-- END CONTAINER -->
   </body>
 
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+  <div class="right" style=>
+    <button id="backToTop" class="btn btn-orange">back to list <i class="fas fa-arrow-circle-up"></i></button>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.18/datatables.min.js"></script>
+
+  <script type="text/javascript" src="./js/js.js"></script>
+  
   <script type="text/javascript">
     var _gauges = _gauges || [];
     (function() {
