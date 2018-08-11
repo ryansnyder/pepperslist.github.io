@@ -371,7 +371,7 @@ img.photo {
   th.shopping-list-time,
   td.shopping-list-type,
   td.shopping-list-time {
-	 display: table;
+	 display: table-cell;
   }
 
 }
