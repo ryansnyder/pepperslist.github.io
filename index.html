@@ -46,10 +46,10 @@
       <table id="shopping-list" class="table">
         <thead>
           <tr>
-            <th scope="col">Item</th>
-            <th scope="col">How will I use this?</th>
-            <th scope="col">Do I really need this?</th>            
-            <th scope="col">When to buy</th>                        
+            <th scope="col" class="shopping-list-item">Item</th>
+            <th scope="col" class="shopping-list-type">How will I use this?</th>
+            <th scope="col" class="shopping-list-need">Do I really need this?</th>            
+            <th scope="col" class="shopping-list-time">When to buy</th>                        
           </tr>
         </thead>
         <tbody>
@@ -57,163 +57,291 @@
           <!-- books -->            
 
           <tr>
-            <td><a class="dotted soft-scroll" href="#books">Books</a></td>
-            <td>Getting ready</td>
-            <td>Mandatory</td>            
-            <td>2nd Month</td>                        
+            <td class="shopping-list-item"><a class="dotted soft-scroll" href="#books">Books</a></td>
+            <td class="shopping-list-type">Getting ready</td>
+            <td class="shopping-list-need">Mandatory</td>            
+            <td class="shopping-list-time">2nd Month</td>                        
+          </tr>
+
+          <tr>
+            <td class="shopping-list-item"><a class="dotted soft-scroll" href="#apps">Apps</a></td>
+            <td class="shopping-list-type">Getting ready</td>
+            <td class="shopping-list-need">Mandatory</td>            
+            <td class="shopping-list-time">2nd Month</td>                        
           </tr>
             
           <!-- out and about -->            
           
           <tr>
-            <td><a class="dotted soft-scroll" href="#stroller">Stroller + car seat</a></td>
-            <td>Out and about</td>
-            <td>Mandatory</td>            
-            <td>6th Month</td>                        
+            <td class="shopping-list-item"><a class="dotted soft-scroll" href="#stroller">Stroller + car seat</a></td>
+            <td class="shopping-list-type">Out and about</td>
+            <td class="shopping-list-need">Mandatory</td>            
+            <td class="shopping-list-time">6th Month</td>                        
           </tr>
           <tr>
-            <td><a class="dotted soft-scroll" href="#baby-carrier">Baby carrier</a></td>
-            <td>Out and about</td>
-            <td>Nice to have</td>            
-            <td>8th month</td>                        
+            <td class="shopping-list-item"><a class="dotted soft-scroll" href="#baby-carrier">Baby carrier</a></td>
+            <td class="shopping-list-type">Out and about</td>
+            <td class="shopping-list-need">Nice to have</td>            
+            <td class="shopping-list-time">8th month</td>                        
           </tr>
           <tr>
-            <td>Baby blanket</td>
-            <td>Out and about</td>
-            <td>Mandatory</td>            
-            <td>6th month</td>                        
+            <td class="shopping-list-item">Baby blanket</td>
+            <td class="shopping-list-type">Out and about</td>
+            <td class="shopping-list-need">Mandatory</td>            
+            <td class="shopping-list-time">6th month</td>                        
           </tr>
           <tr>
-            <td><a class="dotted soft-scroll" href="#baby-sling">Change bag + change mat</a></td>
-            <td>Out and about</td>
-            <td>Mandatory</td>            
-            <td>6th month</td>                        
+            <td class="shopping-list-item"><a class="dotted soft-scroll" href="#baby-sling">Change bag + change mat</a></td>
+            <td class="shopping-list-type">Out and about</td>
+            <td class="shopping-list-need">Mandatory</td>            
+            <td class="shopping-list-time">6th month</td>                        
           </tr>
           <tr>
-            <td>Baby sling</td>
-            <td>Out and about</td>
-            <td>Nice to have</td>            
-            <td>After birth</td>                        
+            <td class="shopping-list-item">Baby sling</td>
+            <td class="shopping-list-type">Out and about</td>
+            <td class="shopping-list-need">Nice to have</td>            
+            <td class="shopping-list-time">After birth</td>                        
           </tr>
           <tr>
-            <td>Travel crib</td>
-            <td>Nursery</td>
-            <td>Nice to have</td>            
-            <td>After birth</td>
+            <td class="shopping-list-item">Travel crib</td>
+            <td class="shopping-list-type">Nursery</td>
+            <td class="shopping-list-need">Nice to have</td>            
+            <td class="shopping-list-time">After birth</td>
           </tr>
           
           <!-- nursery -->
           
           <tr>
-            <td>Co-sleeping unit</td>
-            <td>Nursery</td>
-            <td>Nice to have</td>            
-            <td>5th month</td>                        
+            <td class="shopping-list-item"><a class="dotted soft-scroll" href="#cosleeping-unit">Co-sleeping unit</a></td>
+            <td class="shopping-list-type">Nursery</td>
+            <td class="shopping-list-need">Nice to have</td>            
+            <td class="shopping-list-time">5th month</td>                        
           </tr>
           <tr>
-            <td>Chest of drawers</td>
-            <td>Nursery</td>
-            <td>Nice to have</td>            
-            <td>4th month</td>                        
+            <td class="shopping-list-item">Chest of drawers</td>
+            <td class="shopping-list-type">Nursery</td>
+            <td class="shopping-list-need">Nice to have</td>            
+            <td class="shopping-list-time">4th month</td>                        
           </tr>
           <tr>
-            <td>Room thermometer</td>
-            <td>Nursery</td>
-            <td>Nice to have</td>            
-            <td>8th month</td>                        
+            <td class="shopping-list-item">Room thermometer</td>
+            <td class="shopping-list-type">Nursery</td>
+            <td class="shopping-list-need">Nice to have</td>            
+            <td class="shopping-list-time">8th month</td>                        
           </tr>
           <tr>
-            <td><a class="dotted soft-scroll" href="#crib">Crib + Toddler Bed</td>
-            <td>Nursery</td>
-            <td>Mandatory</td>            
-            <td>4th month</td>                        
+            <td class="shopping-list-item"><a class="dotted soft-scroll" href="#crib">Crib + Toddler Bed</td>
+            <td class="shopping-list-type">Nursery</td>
+            <td class="shopping-list-need">Mandatory</td>            
+            <td class="shopping-list-time">4th month</td>                        
           </tr>
           <tr>
-            <td><a class="dotted soft-scroll" href="#crib-mattress">Crib Mattress</a></td>
-            <td>Nursery</td>
-            <td>Mandatory</td>            
-            <td>4th month</td>                        
+            <td class="shopping-list-item"><a class="dotted soft-scroll" href="#crib-mattress">Crib Mattress</a></td>
+            <td class="shopping-list-type">Nursery</td>
+            <td class="shopping-list-need">Mandatory</td>            
+            <td class="shopping-list-time">4th month</td>                        
           </tr>
           <tr>
-            <td>Crib Bed Sheets</td>
-            <td>Nursery</td>
-            <td>Mandatory</td>            
-            <td>4th month</td>                        
+            <td class="shopping-list-item">Crib Bed Sheets</td>
+            <td class="shopping-list-type">Nursery</td>
+            <td class="shopping-list-need">Mandatory</td>            
+            <td class="shopping-list-time">4th month</td>                        
           </tr>
           <tr>
-            <td>Diaper changing station + mat</td>
-            <td>Nursery</td>
-            <td>Mandatory</td>            
-            <td>6th month</td>
+            <td class="shopping-list-item">Disposable mattress protectors</td>
+            <td class="shopping-list-type">Nursery</td>
+            <td class="shopping-list-need">Nice to have</td>            
+            <td class="shopping-list-time">6th month</td>
           </tr>
           <tr>
-            <td>Disposable mattress protectors</td>
-            <td>Nursery</td>
-            <td>Nice to have</td>            
-            <td>6th month</td>
+            <td class="shopping-list-item">Laundry basket / bag</td>
+            <td class="shopping-list-type">Nursery</td>
+            <td class="shopping-list-need">Nice to have</td>            
+            <td class="shopping-list-time">7th month</td>
           </tr>
           <tr>
-            <td>Laundry basket / bag</td>
-            <td>Nursery</td>
-            <td>Nice to have</td>            
-            <td>7th month</td>
-          </tr>
-          <tr>
-            <td>Diaper trash bin</td>
-            <td>Nursery</td>
-            <td>Mandatory</td>            
-            <td>7th month</td>
-          </tr>
-          <tr>
-            <td>Baby monitor</td>
-            <td>Nursery</td>
-            <td>Mandatory</td>            
-            <td>7th month</td>
+            <td class="shopping-list-item">Baby monitor</td>
+            <td class="shopping-list-type">Nursery</td>
+            <td class="shopping-list-need">Mandatory</td>            
+            <td class="shopping-list-time">7th month</td>
           </tr>
           
           <!-- Anywhere in the house -->          
           
           <tr>
-            <td>Bouncer</td>
-            <td>Anywhere in the house</td>
-            <td>Nice to have</td>            
-            <td>7th month</td>
+            <td class="shopping-list-item">Bouncer</td>
+            <td class="shopping-list-type">Anywhere in the house</td>
+            <td class="shopping-list-need">Nice to have</td>            
+            <td class="shopping-list-time">7th month</td>
           </tr>
           <tr>
-            <td>Glider + ottoman</td>
-            <td>Anywhere in the house</td>
-            <td>Nice to have</td>            
-            <td>8th month</td>
+            <td class="shopping-list-item">Glider + ottoman</td>
+            <td class="shopping-list-type">Anywhere in the house</td>
+            <td class="shopping-list-need">Nice to have</td>            
+            <td class="shopping-list-time">8th month</td>
           </tr>  
           <tr>
-            <td>Night lights</td>
-            <td>Anywhere in the house</td>
-            <td>Nice to have</td>            
-            <td>8th month</td>
+            <td class="shopping-list-item">Night lights</td>
+            <td class="shopping-list-type">Anywhere in the house</td>
+            <td class="shopping-list-need">Nice to have</td>            
+            <td class="shopping-list-time">8th month</td>
           </tr>                  
           <tr>
-            <td>Table for beside glider</td>
-            <td>Anywhere in the house</td>
-            <td>Nice to have</td>            
-            <td>8th month</td>
+            <td class="shopping-list-item">Table for beside glider</td>
+            <td class="shopping-list-type">Anywhere in the house</td>
+            <td class="shopping-list-need">Nice to have</td>            
+            <td class="shopping-list-time">8th month</td>
           </tr> 
           <tr>
-            <td>Lamp for beside glider</td>
-            <td>Anywhere in the house</td>
-            <td>Nice to have</td>            
-            <td>8th month</td>
+            <td class="shopping-list-item">Lamp for beside glider</td>
+            <td class="shopping-list-type">Anywhere in the house</td>
+            <td class="shopping-list-need">Nice to have</td>            
+            <td class="shopping-list-time">8th month</td>
           </tr>                   
 
-
+          <!-- Essentials and grooming -->
           
-       
+          <tr>
+            <td class="shopping-list-item">Almond oil</td>
+            <td class="shopping-list-type">Bathing + Grooming</td>
+            <td class="shopping-list-need">Nice to have</td>            
+            <td class="shopping-list-time">7th month</td>
+          </tr>
+          <tr>
+            <td class="shopping-list-item">Baby bath</td>
+            <td class="shopping-list-type">Bathing + Grooming</td>
+            <td class="shopping-list-need">Mandatory</td>            
+            <td class="shopping-list-time">7th month</td>
+          </tr>
+          <tr>
+            <td class="shopping-list-item">Baby shampoo</td>
+            <td class="shopping-list-type">Bathing + Grooming</td>
+            <td class="shopping-list-need">Mandatory</td>            
+            <td class="shopping-list-time">7th month</td>
+          </tr>
+          <tr>
+            <td class="shopping-list-item">Baby lotion</td>
+            <td class="shopping-list-type">Bathing + Grooming</td>
+            <td class="shopping-list-need">Mandatory</td>            
+            <td class="shopping-list-time">7th month</td>
+          </tr>
+          <tr>
+            <td class="shopping-list-item">Baby oil</td>
+            <td class="shopping-list-type">Bathing + Grooming</td>
+            <td class="shopping-list-need">Mandatory</td>            
+            <td class="shopping-list-time">7th month</td>
+          </tr>
+          <tr>
+            <td class="shopping-list-item">Baby Tylenol</td>
+            <td class="shopping-list-type">Bathing + Grooming</td>
+            <td class="shopping-list-need">Mandatory</td>            
+            <td class="shopping-list-time">7th month</td>
+          </tr>
+          <tr>
+            <td class="shopping-list-item">Cotton balls</td>
+            <td class="shopping-list-type">Bathing + Grooming</td>
+            <td class="shopping-list-need">Mandatory</td>            
+            <td class="shopping-list-time">7th month</td>
+          </tr>
+          <tr>
+            <td class="shopping-list-item">Cotton buds</td>
+            <td class="shopping-list-type">Bathing + Grooming</td>
+            <td class="shopping-list-need">Mandatory</td>            
+            <td class="shopping-list-time">7th month</td>
+          </tr>
+          <tr>
+            <td class="shopping-list-item">Colic Relief Drops</td>
+            <td class="shopping-list-type">Bathing + Grooming</td>
+            <td class="shopping-list-need">Mandatory</td>            
+            <td class="shopping-list-time">7th month</td>
+          </tr>
+          <tr>
+            <td class="shopping-list-item">Colic Relief Drops or Gripe Water</td>
+            <td class="shopping-list-type">Bathing + Grooming</td>
+            <td class="shopping-list-need">Mandatory</td>            
+            <td class="shopping-list-time">7th month</td>
+          </tr>
+          <tr>
+            <td class="shopping-list-item">Nasal Saline Spray</td>
+            <td class="shopping-list-type">Bathing + Grooming</td>
+            <td class="shopping-list-need">Mandatory</td>            
+            <td class="shopping-list-time">7th month</td>
+          </tr>
+          <tr>
+            <td class="shopping-list-item">Thermometer</td>
+            <td class="shopping-list-type">Bathing + Grooming</td>
+            <td class="shopping-list-need">Mandatory</td>            
+            <td class="shopping-list-time">7th month</td>
+          </tr>
+          <tr>
+            <td class="shopping-list-item">Hair brush</td>
+            <td class="shopping-list-type">Bathing + Grooming</td>
+            <td class="shopping-list-need">Mandatory</td>            
+            <td class="shopping-list-time">7th month</td>
+          </tr>
+          <tr>
+            <td class="shopping-list-item">Fingernail clippers</td>
+            <td class="shopping-list-type">Bathing + Grooming</td>
+            <td class="shopping-list-need">Mandatory</td>            
+            <td class="shopping-list-time">7th month</td>
+          </tr>
+          
+          <!-- Diaper change station / diaper bag -->         
+
+          <tr>
+            <td class="shopping-list-item">Diaper changing station + mat</td>
+            <td class="shopping-list-type">Diaper changing</td>
+            <td class="shopping-list-need">Mandatory</td>            
+            <td class="shopping-list-time">6th month</td>
+          </tr>
+          <tr>
+            <td class="shopping-list-item">Diaper trash bin</td>
+            <td class="shopping-list-type">Diaper changing</td>
+            <td class="shopping-list-need">Mandatory</td>            
+            <td class="shopping-list-time">6th month</td>
+          </tr>
+          <tr>
+            <td class="shopping-list-item">Diaper trash bags for bin</td>
+            <td class="shopping-list-type">Diaper changing</td>
+            <td class="shopping-list-need">Mandatory</td>            
+            <td class="shopping-list-time">6th month</td>
+          </tr>
+          <tr>
+            <td class="shopping-list-item">Diaper trash bags for diaper bag tote</td>
+            <td class="shopping-list-type">Diaper changing</td>
+            <td class="shopping-list-need">Mandatory</td>            
+            <td class="shopping-list-time">6th month</td>
+          </tr>
+          <tr>
+            <td class="shopping-list-item">Diaper changing station + mat</td>
+            <td class="shopping-list-type">Diaper changing</td>
+            <td class="shopping-list-need">Mandatory</td>            
+            <td class="shopping-list-time">6th month</td>
+          </tr>
+          <tr>
+            <td class="shopping-list-item"><a class="dotted soft-scroll" href="#diapers">Newborn Diapers</a></td>
+            <td class="shopping-list-type">Diaper changing</td>
+            <td class="shopping-list-need">Mandatory</td>            
+            <td class="shopping-list-time">6th month</td>
+          </tr>
+          <tr>
+            <td class="shopping-list-item">Baby wipes</td>
+            <td class="shopping-list-type">Diaper changing</td>
+            <td class="shopping-list-need">Mandatory</td>            
+            <td class="shopping-list-time">7th month</td>
+          </tr>
+          <tr>
+            <td class="shopping-list-item">Baby diaper rash cream</td>
+            <td class="shopping-list-type">Diaper changing</td>
+            <td class="shopping-list-need">Mandatory</td>            
+            <td class="shopping-list-time">7th month</td>
+          </tr>
         </tbody>
       </table>
 
 
+      <!-- STROLLER / CAR SEAT - BEGIN -->                  
       <hr>
-
-
       <a name="stroller"></a>
       <h2>Stroller + Car Seat</h2>
       <p>This might be one of the most expensive items you'll purchase before your newborn arrives. But it's also the item that will frustrate you the most if you don't make the right purchase.</p>      
@@ -252,11 +380,13 @@
           </div>              
             
           <p>We spent months looking at strollers, and we kinda hated all of them. We were all set to buy the Chicco Bravo, but ended up purchasing the UPPAbaby because it glided along with hardly any muscling, and it folded and expanded so easily that we just did that over and over again in the store &mdash; it felt that good. Seriously, the salespeople kept coming up to us and asking if there was a problem, and we said "Nope", and just went right back to folding and expanding the stroller.</p>
-          <p>For the car seat, you could choose to buy the <a target="_blank" href="https://www.amazon.com/gp/product/B01NBMKNHV/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B01NBMKNHV&linkCode=as2&tag=pepperslist-20&linkId=ca0ee91d8bc217e8f51fd9ef765ae2c5">UPPAbaby Mesa Car Seat</a>, and it looks and feels like a really good car seat. But, when you start using the Nuna Pipa, you'll fall in love with the little details &mdash; like the magnetic sun guard that pulls out and clings to the sides of the car seat with so very little effort. The only downside is that you'll need this <a target="_blank" href="https://www.amazon.com/gp/product/B00OAWL4FE/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00OAWL4FE&linkCode=as2&tag=pepperslist-20&linkId=bf4d5607c26ae03f881eac32ea0b0fe8">UPPAbaby VISTA Upper Adapter</a> for the Nuna car seat.</p>
+          <p>For the car seat, you could choose to buy the <a target="_blank" href="https://www.amazon.com/gp/product/B01NBMKNHV/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B01NBMKNHV&linkCode=as2&tag=pepperslist-20&linkId=ca0ee91d8bc217e8f51fd9ef765ae2c5">UPPAbaby Mesa Car Seat</a>, and it looks and feels like a really good car seat. But, when you start using the Nuna Pipa, it will be easy to handle because it's so light (7.9 pounds), and you'll fall in love with the little details &mdash; like the magnetic sun guard that pulls out and clings to the sides of the car seat with so very little effort. The only hassle is that you'll need the <a target="_blank" href="https://www.amazon.com/gp/product/B00OAWL4FE/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00OAWL4FE&linkCode=as2&tag=pepperslist-20&linkId=bf4d5607c26ae03f881eac32ea0b0fe8">UPPAbaby VISTA Upper Adapter</a> for the Nuna car seat.</p>
               
         </div>
       </div>
+      <!-- STROLLER / CAR SEAT - END -->                  
       
+      <!-- CRIB - BEGIN -->                  
       <hr>        
       <a name="baby-carrier"></a>
       <h2>Baby Carrier</h2>
@@ -269,12 +399,15 @@
       </div>
       <div class="buy">
         <a target="_blank" href="https://www.amazon.com/gp/product/B002Q0Y8QY/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B002Q0Y8QY&linkCode=as2&tag=pepperslist-20&linkId=ad60a0dd26275cdd5558206607f2a947"><button class="btn btn-teal">Buy the Baby Bjorn Carrier &mdash; $80 on Amazon</button></a>
-      </div>                
+      </div>           
+      <!-- CARRIER - END -->                       
       
+      <!-- CRIB - BEGIN -->                  
       <hr>        
       <a name="crib"></a>
       <h2>Crib + Toddler Bed</h2>
       <p>We looked everywhere to try to find the right crib. Ikea's cribs were too flimsy and just looked and felt cheap. Crate and Barrel's cribs were really nice, but so expensive that we couldn't justify the price. Other cribs were either too bulky, or  or too flimsy. When we found Babyletto Crib, we quickly found that this was the right crib for us. Sturdy, good looking, and it hit the right price point.</p>
+      <p>If you buy a <a class="dotted soft-scroll" href="#cosleeping-unit">co-sleeping unit</a>, you could wait until baby's 3rd month to buy and put together a crib.</p>
       <h5>The only one you'll want</h5>
       <h4>Babyletto Crib + Toddler Bed</h4>
       <div class="photo">
@@ -283,10 +416,42 @@
       <div class="buy">
         <a target="_blank" href="https://www.amazon.com/gp/product/B007CRJHUI/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B007CRJHUI&linkCode=as2&tag=pepperslist-20&linkId=363f9806430987250c21c8823d9ad111"><button class="btn btn-teal">Buy the Babyletto Crib &mdash; $370 to $450 on Amazon</button></a>
       </div>                      
+      <!-- CRIB - END -->            
+
+      <!-- COSLEEPING UNIT - BEGIN -->            
+      <hr>        
+      <a name="crib"></a>
+      <h2>Crib + Toddler Bed</h2>
+      <p>We looked everywhere to try to find the right crib. Ikea's cribs were too flimsy and just looked and felt cheap. Crate and Barrel's cribs were really nice, but so expensive that we couldn't justify the price. Other cribs were either too bulky, or  or too flimsy. When we found Babyletto Crib, we quickly found that this was the right crib for us. Sturdy, good looking, and it hit the right price point.</p>
+      <p>If you buy a <a class="dotted soft-scroll" href="#cosleeping-unit">co-sleeping unit</a>, you could wait until baby's 3rd month to buy and put together a crib.</p>
+      <h5>The only one you'll want</h5>
+      <h4>Babyletto Crib + Toddler Bed</h4>
+      <div class="photo">
+        <a target="_blank" href="https://www.amazon.com/gp/product/B007CRJHUI/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B007CRJHUI&linkCode=as2&tag=pepperslist-20&linkId=363f9806430987250c21c8823d9ad111"><img src="https://images-na.ssl-images-amazon.com/images/I/71juC-sUHEL._SX522_.jpg" /></a>
+      </div>
+      <div class="buy">
+        <a target="_blank" href="https://www.amazon.com/gp/product/B007CRJHUI/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B007CRJHUI&linkCode=as2&tag=pepperslist-20&linkId=363f9806430987250c21c8823d9ad111"><button class="btn btn-teal">Buy the Babyletto Crib &mdash; $370 to $450 on Amazon</button></a>
+      </div>
+      <!-- COSLEEPING UNIT - END -->      
       
       
       
+      <!-- DIAPERS - BEGIN -->            
+      <hr>        
+      <a name="diapers"></a>
+      <h2>Newborn Diapers</h2>
+      <p>Professionals recommend making sure you have 100 newborn diapers for the first week, and you'll go through 10 or more diapers per day. The newborn diapers can be used until your baby reaches around 10 pounds, at which time you'll need to upgrade to the next diaper size.</p>
+      <h5>The only one you'll want</h5>
+      <h4>Pampers Swaddlers</h4>
+      <div class="photo">
+        <a target="_blank" href="https://www.amazon.com/gp/product/B07DCB7H79/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B07DCB7H79&linkCode=as2&tag=pepperslist-20&linkId=ea0dc4ecbfb0bd8ac034745647bd9877"><img src="https://images-na.ssl-images-amazon.com/images/I/81w16ZGsgNL._SX522_.jpg" /></a>
+      </div>
+      <div class="buy">
+        <a target="_blank" href="https://www.amazon.com/gp/product/B07DCB7H79/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B07DCB7H79&linkCode=as2&tag=pepperslist-20&linkId=ea0dc4ecbfb0bd8ac034745647bd9877"><button class="btn btn-teal">Buy 120 Pampers Swaddlers Disposable Diapers &mdash; $35 on Amazon</button></a>
+      </div>
+      <!-- DIAPERS - END -->
       
+      <!-- BOOKS - BEGIN -->      
       <hr>        
       <a name="books"></a>
       <h2>Books</h2>
@@ -314,8 +479,28 @@
           </div>
         </div>
       </div>
+      <!-- BOOKS - END -->
       
-      
+      <!-- APPS - BEGIN -->
+      <hr>        
+      <a name="apps"></a>
+      <h2>Apps</h2>
+      <div class="row">
+        <div class="col-sm">
+          <h5>For her</h5>
+          <h4>The Bump + Ovia</h4>
+          <p>Both apps were helpful for reading timely articles related to your stage of pregnancy.</p>
+          <p>The Bump: <a target="_new" href="https://itunes.apple.com/us/app/the-bump-daily-pregnancy-and-baby-tracker/id568940747?mt=8">iTunes</a>, <a target="_new" href="https://play.google.com/store/apps/details?id=com.xogrp.thebump&hl=en">Android</a></p>
+          <p>Ovia: <a target="_new" href="https://itunes.apple.com/us/app/ovia-pregnancy-tracker/id719135369?mt=8">iTunes</a>, <a target="_new" href="https://play.google.com/store/apps/details?id=com.ovuline.pregnancy&hl=en_US">Android</a></p>
+        </div>
+        <div class="col-sm">      
+          <h5>For him</h5>
+          <h4>None</h4>
+          <p>People recommended a contraction counting app, but we found them completely unhelpful. When a contraction starts, it takes 15-20 seconds to realize a contraction has started, to find your phone, open the app, and start the timer.</p>
+          <p>I wish I'd have been more present with my wife while she was working through a contraction, and that I'd worn a watch with a seconds hand, and logged the contraction times with pen and paper.</p>
+        </div>
+      </div>
+      <!-- APPS - END -->
       
       
       

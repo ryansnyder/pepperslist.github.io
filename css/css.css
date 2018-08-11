@@ -156,7 +156,6 @@ th {
   font-weight: bold;
 }
 
-
 /* IMAGES
 -------------------------------------------------- */
 
@@ -310,6 +309,12 @@ img.photo {
     min-width: 80px;
     padding: 5px 7px !important;
   }
+  th.shopping-list-type,
+  th.shopping-list-time,
+  td.shopping-list-type,
+  td.shopping-list-time {
+	 display: none;
+  }
 }
 @media(min-width:767px){
   .hide-under-768 {
@@ -358,4 +363,11 @@ img.photo {
     min-width: 140px;
     padding: 10px 15px !important;
   }
+  th.shopping-list-type,
+  th.shopping-list-time,
+  td.shopping-list-type,
+  td.shopping-list-time {
+	 display: table;
+  }
+
 }
