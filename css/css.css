@@ -6,7 +6,7 @@
 /* PINK PEPPERCORN - #e66151 */
 
 
-@import url('https://fonts.googleapis.com/css?family=Hind|Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Hind|Open+Sans|Dancing+Script');
 
 body {
   background-color: #f6f5f4;
@@ -20,7 +20,11 @@ button, .ui-menu-item {
   font-weight: 400;
   color: #404549;
 }
-h1, h2, h3, h4, h5 {
+h1 {
+  color: #173e43;
+  font-family: 'Dancing Script', 'Hind', "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", "Helvetica", sans-serif;  ;	
+}
+h2, h3, h4, h5 {
   color: #173e43;
   font-family: 'Hind', "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", "Helvetica", sans-serif;  
 }
@@ -324,7 +328,7 @@ img.photo {
     display: none;	
   }
   h1 {
-    font-size: 32pt;
+    font-size: 42pt;
     margin: 10px 0 50px 0;
     padding: 5px 0;	
   }
