@@ -10,8 +10,10 @@ function smoothScrollTo(node) {
 
 $(document).ready(function() {
   $('#shopping-list').DataTable( {
-      "order": [[ 1, "asc" ], [2,'asc'], [0,'asc']],
-	  paging: false
+      // "order": [[ 1, "asc" ], [2,'asc'], [0,'asc']],
+	  "order": [ 0, "asc" ]
+	  paging: false,
+      "type": "num"
   });
   $("#shopping-list_length").hide();
   $("#shopping-list_info").hide();      
