@@ -191,10 +191,14 @@ img.photo {
 .btn-peppercorn {
   background-color: #e66151 !important;
   border-color: 1px solid #e66151;
-  color: white;
 }
+.btn-peppercorn,
 .btn-peppercorn i {
   color: white;
+}
+.btn-peppercorn:hover {
+  background-color: #fff !important;
+  border-color: 1px solid #fff;
 }
 .btn-peppercorn:hover,
 .btn-peppercorn:hover i {
