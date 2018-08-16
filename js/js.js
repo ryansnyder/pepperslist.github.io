@@ -3,6 +3,14 @@ $('#backToTop').click(function(){
   return false;
 });
 
+$('.soft-scroll').click(function(){
+  mixpanel.track("Click list item");
+});
+
+$('.click-purchase-link').click(function(){
+  mixpanel.track("Click purchase link");
+});
+
 // Native smooth scroll to element
 function smoothScrollTo(node) {
   node.scrollIntoView({behavior: 'smooth'});
