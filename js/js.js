@@ -6,8 +6,8 @@ $('#backToTop').click(function(){
 
 $('#hide-list').click(function(){
   hideTableRows();
-  $('#hide-list').show();
-  $('#show-list').hide();
+  $('#hide-list').hide();
+  $('#show-list').show();
   if (isProductionEnvironment()) {
     mixpanel.track("Hide shopping list");	
   }
@@ -70,6 +70,14 @@ function showTableRows() {
   $(".hide-initially").show('fast');	
 }
 
+function changeShowListText() {
+  var num = 0;
+  $('#shopping-list > tbody > tr').each(function() {
+    num++;
+  });
+  $("#show-full-list-text").text("Show all " + num + " items ");
+}
+
 $(document).ready(function() {
   if (isProductionEnvironment()) {
     mixpanel.track("Page load");	
@@ -86,6 +94,7 @@ $(document).ready(function() {
   $("#shopping-list_paginate").hide(); 
   $("#shopping-list_filter").hide();   
 
+  changeShowListText();
   hideTableRows();
 } );
 
