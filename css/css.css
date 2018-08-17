@@ -327,6 +327,9 @@ img.photo {
   td.shopping-list-time {
 	 display: none;
   }
+  #shopping-list {
+    font-size: 10pt;	
+  }
 }
 @media(min-width:767px){
   .hide-under-768 {
@@ -380,6 +383,9 @@ img.photo {
   td.shopping-list-type,
   td.shopping-list-time {
 	 display: table-cell;
+  }
+  #shopping-list {
+    font-size: 11pt;	
   }
 
 }
