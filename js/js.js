@@ -50,6 +50,18 @@ function isProductionEnvironment() {
   return false;
 }
 
+$(window).scroll(function(){
+  var topofDiv = $("#stroller").offset().top;
+  var height = $("#stroller").outerHeight();
+  
+  if ($(window).scrollTop() > (topofDiv + height)){
+     $("#backToTop").show();
+  }
+  else {
+     $("#backToTop").hide();
+  }
+});
+
 function hideTableRows() {
   $(".hide-initially").hide('fast');      		
 }
