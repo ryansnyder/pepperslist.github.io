@@ -232,6 +232,9 @@ img.photo {
 .btn-white:hover i {
   color: #fff !important;
 }
+#hide-list {
+  display: none;
+}
 #backToTop {
   position: fixed; 
   bottom: 20px;
