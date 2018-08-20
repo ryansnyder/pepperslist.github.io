@@ -246,7 +246,7 @@
             <td class="shopping-list-time">month 8</td>
           </tr>                   
           <tr class="hide-initially">
-            <td class="shopping-list-item" data-order="99">Play mat</td>
+            <td class="shopping-list-item" data-order="99"><a class="dotted soft-scroll" href="#activity-mat">Activity mat</a></td>
             <td class="shopping-list-type">Anywhere in the house</td>
             <td class="shopping-list-need">Nice to have</td>            
             <td class="shopping-list-time">month 8</td>
@@ -639,6 +639,7 @@
       <!-- BOTTLE DRYING RACK - END -->
       
       
+      
       <!-- NIPPLE GEL PADS - BEGIN -->                  
       <hr>        
       <a id="nipple-gel-pads" name="nipple-gel-pads"></a>
@@ -884,9 +885,25 @@
       </div>
       <!-- DIAPER RASH CREAM - END -->
          
+
+      <!-- ACTIVITY MAT - BEGIN -->            
+      <hr>        
+      <a id="activity-mat" name="activity-mat"></a>
+      <h2>Activity Mat</h2>
+      <p>Play and encouraging the imagination are essential to your helping your newborn develop their brain. An activity mat will keep them entertained in their early stages of life. Pepper loves her Skip Hop activity mat!</p>
+      <h5>Recommended activity mat</h5>
+      <h4>Skip Hop Baby Treetop Friends Activity Gym</h4>
+      <div class="photo">
+        <a class="click-purchase-link" target="_blank" href="https://amzn.to/2N2Xw1j"><img src="https://images-na.ssl-images-amazon.com/images/I/51xAUPw0OeL.jpg" /></a>
+      </div>
+      <div class="buy">
+        <a class="click-purchase-link" target="_blank" href="https://amzn.to/2N2Xw1j"><button class="btn btn-teal">Buy Skip Hop Mat &mdash; $72 on Amazon</button></a>
+      </div>
+      <!-- ACTIVITY MAT - END -->         
+         
       <!-- NIGHT LIGHTS - BEGIN -->            
       <hr>        
-      <a name="night-lights"></a>
+      <a id="night-lights" name="night-lights"></a>
       <h2>Night Lights</h2>
       <p>Make sure your little one doesn't wake up when you flip on the lights suddenly, and ensure you don't fumble or trip when trying fumble your way through the dark to change a diaper. We've been using these GE night lights for over a year now and they're worth every penny.</p>
       <h5>These will do the trick</h5>
@@ -898,6 +915,8 @@
         <a class="click-purchase-link" target="_blank" href="https://amzn.to/2MqcVM1"><button class="btn btn-teal">Buy GE night lights &mdash; $19 on Amazon</button></a>
       </div>
       <!-- NIGHT LIGHTS - END -->         
+
+
          
       <!-- MATERNITY PILLOW - BEGIN -->            
       <hr>        
@@ -1006,21 +1025,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
   <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.18/datatables.min.js"></script>
-
-  <script type="text/javascript">
-    var _gauges = _gauges || [];
-    (function() {
-      var t   = document.createElement('script');
-      t.type  = 'text/javascript';
-      t.async = true;
-      t.id    = 'gauges-tracker';
-      t.setAttribute('data-site-id', '5b6cb413d4fb644ed5ab80a3');
-      t.setAttribute('data-track-path', 'https://track.gaug.es/track.gif');
-      t.src = 'https://d2fuc4clr7gvcn.cloudfront.net/track.js';
-      var s = document.getElementsByTagName('script')[0];
-      s.parentNode.insertBefore(t, s);
-    })();
-  </script>
   
   <!-- start Mixpanel --><script type="text/javascript">(function(e,a){if(!a.__SV){var b=window;try{var c,l,i,j=b.location,g=j.hash;c=function(a,b){return(l=a.match(RegExp(b+"=([^&]*)")))?l[1]:null};g&&c(g,"state")&&(i=JSON.parse(decodeURIComponent(c(g,"state"))),"mpeditor"===i.action&&(b.sessionStorage.setItem("_mpcehash",g),history.replaceState(i.desiredHash||"",e.title,j.pathname+j.search)))}catch(m){}var k,h;window.mixpanel=a;a._i=[];a.init=function(b,c,f){function e(b,a){var c=a.split(".");2==c.length&&(b=b[c[0]],a=c[1]);b[a]=function(){b.push([a].concat(Array.prototype.slice.call(arguments,
   0)))}}var d=a;"undefined"!==typeof f?d=a[f]=[]:f="mixpanel";d.people=d.people||[];d.toString=function(b){var a="mixpanel";"mixpanel"!==f&&(a+="."+f);b||(a+=" (stub)");return a};d.people.toString=function(){return d.toString(1)+".people (stub)"};k="disable time_event track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");
@@ -1029,4 +1033,15 @@
   </script><!-- end Mixpanel -->
 
   <script>document.write('<script type="text/javascript" src="./js/js.js"?v=' + Math.floor(Math.random() * 10000) + '\/><\/script>');</script>
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124288165-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-124288165-1');
+  </script>
+  
 </html>
