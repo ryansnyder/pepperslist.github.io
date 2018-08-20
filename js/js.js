@@ -17,7 +17,9 @@ $('#show-list').click(function(){
   showTableRows();
   $('#hide-list').show();
   $('#show-list').hide();
-  mixpanel.track("Show shopping list");	
+  if (isProductionEnvironment()) {
+    mixpanel.track("Show shopping list");	 
+  }
 });
 
 $('.soft-scroll').click(function(){
