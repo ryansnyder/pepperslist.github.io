@@ -33,6 +33,12 @@ $('.soft-scroll').click(function(){
   smoothScrollTo(href);
 });
 
+$('#download-spreadsheet').click(function(){
+  if (isProductionEnvironment()) {
+    mixpanel.track("View spreadsheet");	
+  }  
+});
+
 $('.click-purchase-link').click(function(){
   if (isProductionEnvironment()) {
     mixpanel.track("Click purchase link");	
