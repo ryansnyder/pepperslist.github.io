@@ -11,6 +11,8 @@ $('#hide-list').click(function(){
   if (isProductionEnvironment()) {
     mixpanel.track("Hide shopping list");	
   }
+  $('html,body').animate( { scrollTop: 0 } ,'slow');
+  return false;
 });
 
 $('#show-list').click(function(){
@@ -49,6 +51,7 @@ $('.click-purchase-link').click(function(){
 function smoothScrollTo(elementId) {
   var element = document.getElementById(elementId);
   element.scrollIntoView({ behavior: "smooth" });	
+  return false;
 }
 
 function isProductionEnvironment() {
