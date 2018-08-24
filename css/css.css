@@ -152,6 +152,12 @@ div.photo {
 div.buy {
   margin-bottom: 30px;
 }
+div.about {
+  background-color: #dddfd4;
+  border-top: 8px solid #3fb0ac;
+  padding: 0 20px 20px 20px;
+  margin-top: 100px;
+}
 
 /* TABLES
 --------------------------------------------------- */

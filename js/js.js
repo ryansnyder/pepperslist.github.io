@@ -90,12 +90,13 @@ function changeShowListText() {
 }
 
 $(document).ready(function() {
+  $('.lazy').lazy(); // lazy load images
+	
   if (isProductionEnvironment()) {
     mixpanel.track("Page load");	
   }
 
   $('#shopping-list').DataTable( {
-      // "order": [[ 1, "asc" ], [2,'asc'], [0,'asc']],
 	  "order": [ 0, "asc" ],
 	  paging: false,
       "type": "num"
