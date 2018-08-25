@@ -56,6 +56,15 @@
       <p class="show-under-768">A shopping list to prep for your new baby.</p>      
     </div>
     <div class="container">
+        
+      <div id="buttons">
+        <center>
+          <a target="_new" href="https://docs.google.com/spreadsheets/d/1jgONHMXttqwjzKegCVcS4bWn4Z5MXnJP8IIYpg7d5c0/edit?usp=sharing"><button id="view-spreadsheet" class="btn btn-teal" style="margin-right: 0px;"><i class="fas fa-table"></i> view as spreadsheet</span></button></a>
+      
+          <button id="print-list" class="btn btn-teal"><i class="fas fa-print"></i> print list</button>
+        </center>
+      </div>
+        
       
       <table id="shopping-list" class="table">
         <thead>
@@ -74,31 +83,37 @@
             <td class="shopping-list-item" data-order="0"><a class="dotted soft-scroll" href="#stroller">Stroller + car seat</a></td>
             <td class="shopping-list-type">Out + about</td>
             <td class="shopping-list-need">Mandatory</td>            
-            <td class="shopping-list-time">month 5</td>                        
+            <td class="shopping-list-time" data-order="5">month 5</td>                        
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="11"><a class="dotted soft-scroll" href="#baby-carrier">Baby carrier</a></td>
             <td class="shopping-list-type">Out + about</td>
             <td class="shopping-list-need">Nice to have</td>            
-            <td class="shopping-list-time">after birth</td>                        
+            <td class="shopping-list-time" data-order="10">after birth</td>                        
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="20">Baby blanket - 2x</td>
             <td class="shopping-list-type">Out + about</td>
             <td class="shopping-list-need">Mandatory</td>            
-            <td class="shopping-list-time">month 5</td>                        
+            <td class="shopping-list-time" data-order="5">month 5</td>                        
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="20">Baby sling</td>
             <td class="shopping-list-type">Out + about</td>
             <td class="shopping-list-need">Nice to have</td>            
-            <td class="shopping-list-time">after birth</td>                        
+            <td class="shopping-list-time" data-order="10">after birth</td>                        
           </tr>
           <tr class="hide-initially">
-            <td class="shopping-list-item" data-order="20"><a class="dotted soft-scroll" href="#travel-crib">Travel crib</a></td>
+            <td class="shopping-list-item" data-order="20"><a class="dotted soft-scroll" href="#travel-crib">Travel crib / basinette</a></td>
             <td class="shopping-list-type">Out + about</td>
-            <td class="shopping-list-need">For frequent travelers</td>            
-            <td class="shopping-list-time">after birth</td>
+            <td class="shopping-list-need">Nice to have</td>            
+            <td class="shopping-list-time" data-order="5">month 5</td>
+          </tr>
+          <tr class="hide-initially">
+            <td class="shopping-list-item" data-order="20"><a class="dotted soft-scroll" href="#travel-crib">Travel crib / basinette fitted bed sheets</a></td>
+            <td class="shopping-list-type">Out + about</td>
+            <td class="shopping-list-need">Nice to have</td>            
+            <td class="shopping-list-time" data-order="5">month 5</td>
           </tr>
 
           <!-- nursery -->
@@ -107,7 +122,7 @@
             <td class="shopping-list-item" data-order="50"><a class="dotted soft-scroll" href="#cosleeping-crib">Co-sleeping crib</a></td>
             <td class="shopping-list-type">Bedroom</td>
             <td class="shopping-list-need">Nice to have</td>            
-            <td class="shopping-list-time">month 5</td>                        
+            <td class="shopping-list-time" data-order="5">month 5</td>                        
           </tr>
           
           <!-- nursery -->
@@ -116,67 +131,73 @@
             <td class="shopping-list-item" data-order="2"><a class="dotted soft-scroll" href="#crib">Crib + toddler bed</a></td>
             <td class="shopping-list-type">Nursery</td>
             <td class="shopping-list-need">Mandatory</td>            
-            <td class="shopping-list-time">month 4</td>                        
+            <td class="shopping-list-time" data-order="4">month 4</td>                        
           </tr>
           <tr class="show-initially">
             <td class="shopping-list-item" data-order="3"><a class="dotted soft-scroll" href="#crib-mattress">Crib mattress</a></td>
             <td class="shopping-list-type">Nursery</td>
             <td class="shopping-list-need">Mandatory</td>            
-            <td class="shopping-list-time">month 4</td>                        
+            <td class="shopping-list-time" data-order="4">month 4</td>                        
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="80"><a class="dotted soft-scroll" href="#crib-bedding">Crib bedding - 3x</a></td>
             <td class="shopping-list-type">Nursery</td>
             <td class="shopping-list-need">Mandatory</td>            
-            <td class="shopping-list-time">month 4</td>                        
+            <td class="shopping-list-time" data-order="4">month 4</td>                        
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="80">Baby monitor</td>
             <td class="shopping-list-type">Nursery</td>
             <td class="shopping-list-need">Mandatory</td>            
-            <td class="shopping-list-time">month 4</td>
+            <td class="shopping-list-time" data-order="4">month 4</td>
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="80">Laundry basket / bag</td>
             <td class="shopping-list-type">Nursery</td>
             <td class="shopping-list-need">Nice to have</td>            
-            <td class="shopping-list-time">month 4</td>
+            <td class="shopping-list-time" data-order="4">month 4</td>
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="80"><a class="dotted soft-scroll" href="#humidifier">Humidifier</a></td>
             <td class="shopping-list-type">Nursery</td>
             <td class="shopping-list-need">Mandatory</td>            
-            <td class="shopping-list-time">month 4</td>                        
+            <td class="shopping-list-time" data-order="4">month 4</td>                        
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="80"><a class="dotted soft-scroll" href="#thermometer-hygrometer">Humidity monitor + thermometer</a></td>
             <td class="shopping-list-type">Nursery</td>
             <td class="shopping-list-need">Nice to have</td>            
-            <td class="shopping-list-time">month 4</td>                        
+            <td class="shopping-list-time" data-order="4">month 4</td>                        
           </tr>
+          <tr class="hide-initially">
+            <td class="shopping-list-item" data-order="80"><a class="dotted soft-scroll" href="#disposable-mattress-protectors">Disposable mattress protectors</a></td>
+            <td class="shopping-list-type">Nursery</td>
+            <td class="shopping-list-need">Nice to have</td>            
+            <td class="shopping-list-time" data-order="4">month 4</td>
+          </tr>          
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="80">Muslin blankets - 5x</td>
             <td class="shopping-list-type">Nursery</td>
             <td class="shopping-list-need">Mandatory</td>            
-            <td class="shopping-list-time">month 4</td>
+            <td class="shopping-list-time" data-order="4">month 4</td>
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="80"><a class="dotted soft-scroll" href="#toy-chest">Toy chest</a></td>
             <td class="shopping-list-type">Nursery</td>
             <td class="shopping-list-need">Nice to have</td>            
-            <td class="shopping-list-time">month 4</td>                        
+            <td class="shopping-list-time" data-order="4">month 4</td>                        
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="80"><a class="dotted soft-scroll" href="#first-toy">First toy</a></td>
             <td class="shopping-list-type">Nursery</td>
             <td class="shopping-list-need">Not necessary</td>            
-            <td class="shopping-list-time">month 4</td>                        
+            <td class="shopping-list-time" data-order="4">month 4</td>                        
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="80"><a class="dotted soft-scroll" href="#baby-night-light">Baby night light</a></td>
             <td class="shopping-list-type">Nursery</td>
             <td class="shopping-list-need">Not necessary</td>            
-            <td class="shopping-list-time">month 4</td>                        
+            <td class="shopping-list-time" data-order="4">month 4</td>                        
           </tr>
 
           <!-- Nursing / Feeding -->          
@@ -185,61 +206,61 @@
             <td class="shopping-list-item" data-order="70"><a class="dotted soft-scroll" href="#breast-pump">Breast pump</a></td>
             <td class="shopping-list-type">Nursing / Feeding</td>
             <td class="shopping-list-need">Mandatory</td>            
-            <td class="shopping-list-time">month 7</td>
+            <td class="shopping-list-time" data-order="7">month 7</td>
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="70"><a class="dotted soft-scroll" href="#nursing-pillow">Nursing pillow</a></td>
             <td class="shopping-list-type">Nursing / Feeding</td>
             <td class="shopping-list-need">Mandatory</td>            
-            <td class="shopping-list-time">month 7</td>
+            <td class="shopping-list-time" data-order="7">month 7</td>
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="70"><a class="dotted soft-scroll" href="#bottle-sterilizer">Bottle sterilizer</a></td>
             <td class="shopping-list-type">Nursing / Feeding</td>
             <td class="shopping-list-need">Mandatory</td>            
-            <td class="shopping-list-time">month 7</td>
+            <td class="shopping-list-time" data-order="7">month 7</td>
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="70"><a class="dotted soft-scroll" href="#bottles">Baby bottles</a></td>
             <td class="shopping-list-type">Nursing / Feeding</td>
             <td class="shopping-list-need">Mandatory</td>            
-            <td class="shopping-list-time">month 7</td>
+            <td class="shopping-list-time" data-order="7">month 7</td>
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="70"><a class="dotted soft-scroll" href="#bottle-brush">Baby bottle brush</a></td>
             <td class="shopping-list-type">Nursing / Feeding</td>
             <td class="shopping-list-need">Nice to have</td>            
-            <td class="shopping-list-time">month 7</td>
+            <td class="shopping-list-time" data-order="7">month 7</td>
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="70"><a class="dotted soft-scroll" href="#bottle-drying-rack">Baby bottle drying rack</a></td>
             <td class="shopping-list-type">Nursing / Feeding</td>
             <td class="shopping-list-need">Nice to have</td>            
-            <td class="shopping-list-time">month 7</td>
+            <td class="shopping-list-time" data-order="7">month 7</td>
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="70">Muslin squares - 5x</td>
             <td class="shopping-list-type">Nursing / Feeding</td>
             <td class="shopping-list-need">Mandatory</td>            
-            <td class="shopping-list-time">month 7</td>
+            <td class="shopping-list-time" data-order="7">month 7</td>
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="70">Teat brush</td>
             <td class="shopping-list-type">Nursing / Feeding</td>
             <td class="shopping-list-need">Nice to have</td>            
-            <td class="shopping-list-time">month 7</td>
+            <td class="shopping-list-time" data-order="7">month 7</td>
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="70">Baby formula</td>
             <td class="shopping-list-type">Nursing / Feeding</td>
             <td class="shopping-list-need">Depends</td>            
-            <td class="shopping-list-time">month 7</td>
+            <td class="shopping-list-time" data-order="7">month 7</td>
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="70">Burp cloths - 10x</td>
             <td class="shopping-list-type">Nursing / Feeding</td>
             <td class="shopping-list-need">Depends</td>            
-            <td class="shopping-list-time">month 7</td>
+            <td class="shopping-list-time" data-order="7">month 7</td>
           </tr>
 
           <!-- Anywhere in the house -->          
@@ -248,37 +269,37 @@
             <td class="shopping-list-item" data-order="99">Glider + ottoman</td>
             <td class="shopping-list-type">Anywhere in the house</td>
             <td class="shopping-list-need">Nice to have</td>            
-            <td class="shopping-list-time">month 8</td>
+            <td class="shopping-list-time" data-order="6">month 6</td>
           </tr>  
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="99">Table for beside glider</td>
             <td class="shopping-list-type">Anywhere in the house</td>
             <td class="shopping-list-need">Nice to have</td>            
-            <td class="shopping-list-time">month 8</td>
+            <td class="shopping-list-time" data-order="6">month 6</td>
           </tr> 
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="99">Lamp for beside glider</td>
             <td class="shopping-list-type">Anywhere in the house</td>
             <td class="shopping-list-need">Nice to have</td>            
-            <td class="shopping-list-time">month 8</td>
+            <td class="shopping-list-time" data-order="6">month 6</td>
           </tr>                   
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="99"><a class="dotted soft-scroll" href="#activity-mat">Activity mat</a></td>
             <td class="shopping-list-type">Anywhere in the house</td>
             <td class="shopping-list-need">Nice to have</td>            
-            <td class="shopping-list-time">month 8</td>
+            <td class="shopping-list-time" data-order="6">month 6</td>
           </tr>               
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="99">Bouncer</td>
             <td class="shopping-list-type">Anywhere in the house</td>
             <td class="shopping-list-need">Nice to have</td>            
-            <td class="shopping-list-time">month 8</td>
+            <td class="shopping-list-time" data-order="6">month 6</td>
           </tr>              
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="99"><a class="dotted soft-scroll" href="#night-lights">Night lights</a></td>
             <td class="shopping-list-type">Anywhere in the house</td>
             <td class="shopping-list-need">Nice to have</td>            
-            <td class="shopping-list-time">month 8</td>
+            <td class="shopping-list-time" data-order="6">month 6</td>
           </tr>                  
           
 
@@ -288,79 +309,79 @@
             <td class="shopping-list-item" data-order="90"><a class="dotted soft-scroll" href="#baby-bath">Baby bath</a></td>
             <td class="shopping-list-type">Bathing + Grooming</td>
             <td class="shopping-list-need">Mandatory</td>            
-            <td class="shopping-list-time">month 7</td>
+            <td class="shopping-list-time" data-order="7">month 7</td>
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="90"><a class="dotted soft-scroll" href="#baby-bath-rinser">Baby bath rinser</a></td>
             <td class="shopping-list-type">Bathing + Grooming</td>
             <td class="shopping-list-need">Not necessary</td>            
-            <td class="shopping-list-time">month 7</td>
+            <td class="shopping-list-time" data-order="7">month 7</td>
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="90"><a class="dotted soft-scroll" href="#baby-shampoo">Baby shampoo + wash</a></td>
             <td class="shopping-list-type">Bathing + Grooming</td>
             <td class="shopping-list-need">Mandatory</td>            
-            <td class="shopping-list-time">month 7</td>
+            <td class="shopping-list-time" data-order="7">month 7</td>
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="90">Baby bath towels</td>
             <td class="shopping-list-type">Bathing + Grooming</td>
             <td class="shopping-list-need">Nice to have</td>            
-            <td class="shopping-list-time">month 7</td>
+            <td class="shopping-list-time" data-order="7">month 7</td>
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="90"><a class="dotted soft-scroll" href="#temporal-scanner-thermometer">Temporal scanner thermometer</a></td>
             <td class="shopping-list-type">Bathing + Grooming</td>
             <td class="shopping-list-need">Mandatory</td>            
-            <td class="shopping-list-time">month 7</td>
+            <td class="shopping-list-time" data-order="7">month 7</td>
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="90"><a class="dotted soft-scroll" href="#grooming-kit">Underarm Thermometer</a></td>
             <td class="shopping-list-type">Bathing + Grooming</td>
             <td class="shopping-list-need">Mandatory</td>            
-            <td class="shopping-list-time">month 7</td>
+            <td class="shopping-list-time" data-order="7">month 7</td>
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="90"><a class="dotted soft-scroll" href="#grooming-kit">Nasal Aspirator</a></td>
             <td class="shopping-list-type">Bathing + Grooming</td>
             <td class="shopping-list-need">Mandatory</td>            
-            <td class="shopping-list-time">month 7</td>
+            <td class="shopping-list-time" data-order="7">month 7</td>
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="90"><a class="dotted soft-scroll" href="#grooming-kit">Hair Brush</a></td>
             <td class="shopping-list-type">Bathing + Grooming</td>
             <td class="shopping-list-need">Mandatory</td>            
-            <td class="shopping-list-time">month 7</td>
+            <td class="shopping-list-time" data-order="7">month 7</td>
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="90"><a class="dotted soft-scroll" href="#grooming-kit">Fingernail Clippers</a></td>
             <td class="shopping-list-type">Bathing + Grooming</td>
             <td class="shopping-list-need">Mandatory</td>            
-            <td class="shopping-list-time">month 7</td>
+            <td class="shopping-list-time" data-order="7">month 7</td>
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="90"><a class="dotted soft-scroll" href="#grooming-kit">Medicine Spoon</a></td>
             <td class="shopping-list-type">Bathing + Grooming</td>
             <td class="shopping-list-need">Nice to have</td>            
-            <td class="shopping-list-time">month 7</td>
+            <td class="shopping-list-time" data-order="7">month 7</td>
           </tr>
           <tr class="hide-initially">
              <td class="shopping-list-item" data-order="90"><a class="dotted soft-scroll" href="#cotton">Cotton balls</a></td>
              <td class="shopping-list-type">Bathing + Grooming</td>
              <td class="shopping-list-need">Mandatory</td>            
-             <td class="shopping-list-time">month 7</td>
+             <td class="shopping-list-time" data-order="7">month 7</td>
            </tr>
            <tr class="hide-initially">
              <td class="shopping-list-item" data-order="90"><a class="dotted soft-scroll" href="#cotton">Cotton swabs</a></td>
              <td class="shopping-list-type">Bathing + Grooming</td>
              <td class="shopping-list-need">Mandatory</td>            
-             <td class="shopping-list-time">month 7</td>
+             <td class="shopping-list-time" data-order="7">month 7</td>
            </tr>
            <tr class="hide-initially">
              <td class="shopping-list-item" data-order="90"><a class="dotted soft-scroll" href="#avocado-oil">Avocado oil (for baby massage)</a></td>
              <td class="shopping-list-type">Bathing + Grooming</td>
              <td class="shopping-list-need">Mandatory</td>            
-             <td class="shopping-list-time">month 7</td>
+             <td class="shopping-list-time" data-order="7">month 7</td>
            </tr>
           
            <!-- Medicine -->  
@@ -369,19 +390,19 @@
             <td class="shopping-list-item" data-order="91"><a class="dotted soft-scroll" href="#medicine">Pain reliever + fever reducer</a></td>
             <td class="shopping-list-type">Medicine</td>
             <td class="shopping-list-need">Mandatory</td>            
-            <td class="shopping-list-time">month 7</td>
+            <td class="shopping-list-time" data-order="7">month 7</td>
           </tr> 
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="91"><a class="dotted soft-scroll" href="#colic-relief">Colic + gas reliever</a></td>
             <td class="shopping-list-type">Medicine</td>
             <td class="shopping-list-need">Mandatory</td>            
-            <td class="shopping-list-time">month 7</td>
+            <td class="shopping-list-time" data-order="7">month 7</td>
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="91"><a class="dotted soft-scroll" href="#nasal-saline-spray">Nasal Saline Spray</a></td>
             <td class="shopping-list-type">Medicine</td>
             <td class="shopping-list-need">Mandatory</td>            
-            <td class="shopping-list-time">month 7</td>
+            <td class="shopping-list-time" data-order="7">month 7</td>
           </tr>
           
           <!-- Diaper change station / diaper bag -->         
@@ -390,85 +411,85 @@
             <td class="shopping-list-item" data-order="99"><a class="dotted soft-scroll" href="#diaper-changing-station">Diaper changing station</a></td>
             <td class="shopping-list-type">Diaper changing</td>
             <td class="shopping-list-need">Mandatory</td>            
-            <td class="shopping-list-time">month 6</td>
+            <td class="shopping-list-time" data-order="6">month 6</td>
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="99"><a class="dotted soft-scroll" href="#diaper-changing-tray">Diaper changing tray</a></td>
             <td class="shopping-list-type">Diaper changing</td>
             <td class="shopping-list-need">Depends</td>            
-            <td class="shopping-list-time">month 6</td>
+            <td class="shopping-list-time" data-order="6">month 6</td>
           </tr>     
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="99"><a class="dotted soft-scroll" href="#diaper-changing-pad">Diaper changing pad</a></td>
             <td class="shopping-list-type">Diaper changing</td>
             <td class="shopping-list-need">Mandatory</td>            
-            <td class="shopping-list-time">month 6</td>
+            <td class="shopping-list-time" data-order="6">month 6</td>
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="99"><a class="dotted soft-scroll" href="#diaper-changing-pad-cover">Diaper changing pad cover</a></td>
             <td class="shopping-list-type">Diaper changing</td>
             <td class="shopping-list-need">Mandatory</td>            
-            <td class="shopping-list-time">month 6</td>
+            <td class="shopping-list-time" data-order="6">month 6</td>
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="99"><a class="dotted soft-scroll" href="#diaper-changing-pad-liners">Diaper changing pad liners</a></td>
             <td class="shopping-list-type">Diaper changing</td>
             <td class="shopping-list-need">Mandatory</td>            
-            <td class="shopping-list-time">month 6</td>
+            <td class="shopping-list-time" data-order="6">month 6</td>
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="99">Portable diaper change bag</td>
             <td class="shopping-list-type">Diaper changing</td>
             <td class="shopping-list-need">Mandatory</td>            
-            <td class="shopping-list-time">month 6</td>                        
+            <td class="shopping-list-time" data-order="6">month 6</td>                        
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="99">Portable diaper change mat</td>
             <td class="shopping-list-type">Diaper changing</td>
             <td class="shopping-list-need">Mandatory</td>            
-            <td class="shopping-list-time">month 6</td>                        
+            <td class="shopping-list-time" data-order="6">month 6</td>                        
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="99"><a class="dotted soft-scroll" href="#diaper-trash-bin">Diaper trash bin</a></td>
             <td class="shopping-list-type">Diaper changing</td>
             <td class="shopping-list-need">Mandatory</td>            
-            <td class="shopping-list-time">month 6</td>
+            <td class="shopping-list-time" data-order="6">month 6</td>
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="99"><a class="dotted soft-scroll" href="#diaper-trash-bin-bags">Diaper trash bin bags</a></td>
             <td class="shopping-list-type">Diaper changing</td>
             <td class="shopping-list-need">Mandatory</td>            
-            <td class="shopping-list-time">month 6</td>
+            <td class="shopping-list-time" data-order="6">month 6</td>
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="99"><a class="dotted soft-scroll" href="#diaper-trash-bags-diaper-tote">Diaper trash bags for diaper bag tote</a></td>
             <td class="shopping-list-type">Diaper changing</td>
             <td class="shopping-list-need">Mandatory</td>            
-            <td class="shopping-list-time">month 6</td>
+            <td class="shopping-list-time" data-order="6">month 6</td>
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="10"><a class="dotted soft-scroll" href="#diapers">Newborn Diapers - 100x</a></td>
             <td class="shopping-list-type">Diaper changing</td>
             <td class="shopping-list-need">Mandatory</td>            
-            <td class="shopping-list-time">month 6</td>
+            <td class="shopping-list-time" data-order="6">month 6</td>
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="10"><a class="dotted soft-scroll" href="#baby-wipes">Baby wipes - 300x</a></td>
             <td class="shopping-list-type">Diaper changing</td>
             <td class="shopping-list-need">Mandatory</td>            
-            <td class="shopping-list-time">month 7</td>
+            <td class="shopping-list-time" data-order="6">month 6</td>
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="99"><a class="dotted soft-scroll" href="#diaper-rash-cream">Diaper rash cream - 3x</a></td>
             <td class="shopping-list-type">Diaper changing</td>
             <td class="shopping-list-need">Mandatory</td>            
-            <td class="shopping-list-time">month 7</td>
+            <td class="shopping-list-time" data-order="6">month 6</td>
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="99">Diaper washcloths - 4x</td>
             <td class="shopping-list-type">Diaper changing</td>
             <td class="shopping-list-need">Mandatory</td>            
-            <td class="shopping-list-time">month 7</td>
+            <td class="shopping-list-time" data-order="6">month 6</td>
           </tr>
           
           <!-- Clothing -->
@@ -477,61 +498,61 @@
             <td class="shopping-list-item" data-order="99">"Coming-home" outfit, for leaving hospital - 1x</td>
             <td class="shopping-list-type">Baby's clothing</td>
             <td class="shopping-list-need">Mandatory</td>            
-            <td class="shopping-list-time">month 7</td>
+            <td class="shopping-list-time" data-order="7">month 7</td>
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="99">One-piece full-body outfits - 6x</td>
             <td class="shopping-list-type">Baby's clothing</td>
             <td class="shopping-list-need">Mandatory</td>            
-            <td class="shopping-list-time">month 7</td>
+            <td class="shopping-list-time" data-order="7">month 7</td>
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="99">Pull-on pants - 3x</td>
             <td class="shopping-list-type">Baby's clothing</td>
             <td class="shopping-list-need">Mandatory</td>            
-            <td class="shopping-list-time">month 7</td>
+            <td class="shopping-list-time" data-order="7">month 7</td>
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="99">T-shirts that snap-in crotch - 5x</td>
             <td class="shopping-list-type">Baby's clothing</td>
             <td class="shopping-list-need">Mandatory</td>            
-            <td class="shopping-list-time">month 7</td>
+            <td class="shopping-list-time" data-order="7">month 7</td>
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="99">Sweaters / jackets - 3x</td>
             <td class="shopping-list-type">Baby's clothing</td>
             <td class="shopping-list-need">Mandatory</td>            
-            <td class="shopping-list-time">month 7</td>
+            <td class="shopping-list-time" data-order="7">month 7</td>
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="99">Socks - 6x</td>
             <td class="shopping-list-type">Baby's clothing</td>
             <td class="shopping-list-need">Mandatory</td>            
-            <td class="shopping-list-time">month 7</td>
+            <td class="shopping-list-time" data-order="7">month 7</td>
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="99">Hats - 2x</td>
             <td class="shopping-list-type">Baby's clothing</td>
             <td class="shopping-list-need">Mandatory</td>            
-            <td class="shopping-list-time">month 7</td>
+            <td class="shopping-list-time" data-order="7">month 7</td>
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="99">Mittens - 2x</td>
             <td class="shopping-list-type">Baby's clothing</td>
             <td class="shopping-list-need">Mandatory</td>            
-            <td class="shopping-list-time">month 7</td>
+            <td class="shopping-list-time" data-order="7">month 7</td>
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="99">Swaddles - 2x</td>
             <td class="shopping-list-type">Baby's clothing</td>
             <td class="shopping-list-need">Mandatory</td>            
-            <td class="shopping-list-time">month 7</td>
+            <td class="shopping-list-time" data-order="7">month 7</td>
           </tr>          
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="99">Baby sleeping bag - 2x</td>
             <td class="shopping-list-type">Baby's clothing</td>
             <td class="shopping-list-need">Mandatory</td>            
-            <td class="shopping-list-time">month 7</td>
+            <td class="shopping-list-time" data-order="7">month 7</td>
           </tr>
           
           <!-- Stuff for Mommy -->            
@@ -540,37 +561,37 @@
             <td class="shopping-list-item" data-order="30"><a class="dotted soft-scroll" href="#boob-cream">Boob + tummy cream</a></td>
             <td class="shopping-list-type">Stuff for mommy</td>
             <td class="shopping-list-need">Nice to have</td>            
-            <td class="shopping-list-time">month 3</td>
+            <td class="shopping-list-time" data-order="5">month 5</td>
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="30"><a class="dotted soft-scroll" href="#nipple-gel-pads">Nipple gel pads</a></td>
             <td class="shopping-list-type">Stuff for mommy</td>
             <td class="shopping-list-need">Nice to have</td>            
-            <td class="shopping-list-time">month 3</td>
+            <td class="shopping-list-time" data-order="5">month 5</td>
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="30"><a class="dotted soft-scroll" href="#nipple-butter">Nipple butter</a></td>
             <td class="shopping-list-type">Stuff for mommy</td>
             <td class="shopping-list-need">Mandatory</td>            
-            <td class="shopping-list-time">month 3</td>
+            <td class="shopping-list-time" data-order="5">month 5</td>
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="30">Nursing bras - 6x</td>
             <td class="shopping-list-type">Stuff for mommy</td>
             <td class="shopping-list-need">Mandatory</td>            
-            <td class="shopping-list-time">month 3</td>
+            <td class="shopping-list-time" data-order="5">month 5</td>
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="30">Breast pads - 6x</td>
             <td class="shopping-list-type">Stuff for mommy</td>
             <td class="shopping-list-need">Mandatory</td>            
-            <td class="shopping-list-time">month 3</td>
+            <td class="shopping-list-time" data-order="5">month 5</td>
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="30">Maternity tops - 6x</td>
             <td class="shopping-list-type">Stuff for mommy</td>
             <td class="shopping-list-need">Mandatory</td>            
-            <td class="shopping-list-time">month 3</td>
+            <td class="shopping-list-time" data-order="5">month 5</td>
           </tr>
           
           <!-- Getting ready -->            
@@ -579,30 +600,23 @@
             <td class="shopping-list-item" data-order="10"><a class="dotted soft-scroll" href="#apps">Apps</a></td>
             <td class="shopping-list-type">Getting ready</td>
             <td class="shopping-list-need">Nice to have</td>            
-            <td class="shopping-list-time">month 2</td>
+            <td class="shopping-list-time" data-order="2">month 2</td>
           </tr>
           
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="10"><a class="dotted soft-scroll" href="#books">Books</a></td>
             <td class="shopping-list-type">Getting ready</td>
             <td class="shopping-list-need">Mandatory</td>            
-            <td class="shopping-list-time">month 2</td>                        
+            <td class="shopping-list-time" data-order="2">month 2</td>                        
           </tr>
           
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="10"><a class="dotted soft-scroll" href="#maternity-pillow">Maternity Pillow</a></td>
             <td class="shopping-list-type">Getting ready</td>
             <td class="shopping-list-need">Mandatory</td>            
-            <td class="shopping-list-time">month 2</td>
+            <td class="shopping-list-time" data-order="2">month 2</td>
           </tr>
           
-          <tr class="hide-initially">
-            <td class="shopping-list-item" data-order="80"><a class="dotted soft-scroll" href="#disposable-mattress-protectors">Disposable mattress protectors</a></td>
-            <td class="shopping-list-type">Getting ready</td>
-            <td class="shopping-list-need">Nice to have</td>            
-            <td class="shopping-list-time">month 2</td>
-          </tr>
-
         </tbody>
       </table>
 
@@ -610,18 +624,12 @@
         <div style="margin: 30px 0 90px 0;">
           <button id="show-list" class="btn btn-peppercorn"><span id="show-full-list-text">show full list</span> <i class="fas fa-arrow-circle-down"></i></button>
           <button id="hide-list" class="btn btn-peppercorn" style="displa">hide full list <i class="fas fa-arrow-circle-up"></i></button>        
-        </div>
-        <div>
-          <center>
-            <a target="_new" href="https://docs.google.com/spreadsheets/d/1jgONHMXttqwjzKegCVcS4bWn4Z5MXnJP8IIYpg7d5c0/edit?usp=sharing"><button id="view-spreadsheet" class="btn btn-teal" style="margin-right: 0px;"><i class="fas fa-table"></i> view as spreadsheet</span></button></a>
-
-            <!-- <button id="show-list" class="btn btn-teal" style="margin-left: 15px;"><i class="fas fa-print"></i> print list</button> -->
-          </center>
-        </div>
-        
+        </div>        
       </center>
 
 
+      <div id="product-details">
+          
       <!-- STROLLER / CAR SEAT - BEGIN -->                  
       <hr style="margin-top: 30px;">
       <a id="stroller" name="stroller"></a>
@@ -710,8 +718,8 @@
       <!-- HUMIDIFIER - BEGIN -->            
       <hr>        
       <a id="humidifier" name="humidifier"></a>
-      <h2>Humidity Monitor + Thermometer</h2>
-      <p>You'll want to maintain a humidity level of between 35-50% in the room where the baby sleeps.</p>
+      <h2>Humidifier</h2>
+      <p>You'll want to maintain a humidity level of between 35-50% in the room where the baby sleeps. This will be necessary in dry climates, and in the winter in cold climates.</p>
       <h5>Recommended Humidifier</h5>
       <h4>Safety 1st 360 Cool Mist Ultrasonic Humidifier</h4>
       <div class="photo">
@@ -1378,11 +1386,29 @@
         <a class="click-purchase-link" class="click-purchase-link" target="_blank" href="https://amzn.to/2vVgMaz"><button class="btn btn-teal">Buy Priva Disposable Pads &mdash; $42 on Amazon</button></a>
       </div>                      
       <!-- DISPOSABLE MATTRESS PROTECTORS - END -->
+      
+      <!-- CLOTHING - ONESIES - BEGIN -->                  
+      <hr>        
+      <a id="onesies" name="onesies"></a>
+      <h2>Onesies</h2>
+      <p>THE MAGNETIC ME ONESIES ARE AMAZING!</p>
+      <p>Sorry for shouting, but you're going to need about 6 newborn-size onesies and the Magnetic Me onesies remove that one additional step of getting your little pork chop's clothes back on after a diaper change or after a bath. Every little time-saving step helps so much.</p>
+      <h5>The Flippin' Best</h5>
+      <h4>Magnetic Me - Magnificent Baby Magnetic Modal Footie</h4>
+      <div class="photo">
+        <a class="click-purchase-link" target="_blank" href="https://amzn.to/2Lq7et1"><img class="lazy" data-src="https://images-na.ssl-images-amazon.com/images/I/81F%2BUeDEu6L._UX679_.jpg" /></a>
+      </div>
+      <div class="buy">
+        <a class="click-purchase-link" class="click-purchase-link" target="_blank" href="https://amzn.to/2Lq7et1"><button class="btn btn-teal">Buy Magnetic Me Onesies &mdash; ~$30 on Amazon</button></a>
+      </div>                      
+      <!-- CLOTHING - ONESIES - END -->
+
+   </div><!-- PRODUCT DETAILS - END -->
 
       <!-- ABOUT - BEGIN -->   
       <a id="about" name="about"></a>
       <div class="about">
-        <p style="margin-top: 20px;">Hey there! <a href="http://pepperslist.co"><strong>Pepper's List</strong></a> was created by <a target="_new" href="https://twitter.com/dharsypedia"><span itemprop="author" itemscope itemtype="http://schema.org/Person"><strong itemprop="name">Dhara Patel Snyder</strong></span></a> and <a target="_new" href="https://twitter.com/ryansnyder"><span itemprop="author" itemscope itemtype="http://schema.org/Person"><strong itemprop="name">Ryan Snyder</strong></span></a>, based on the shopping list we created when were preparing for the birth of our daughter Pepper, and what we learned after we all started testing the products.</p>
+        <p style="margin-top: 20px;">Hey there! <a href="http://pepperslist.co"><strong>Pepper's List</strong></a> was created by <a target="_new" href="https://twitter.com/dharsypedia"><span itemprop="author" itemscope itemtype="http://schema.org/Person"><strong itemprop="name">Dhara Patel Snyder</strong></span></a> and <a target="_new" href="https://twitter.com/ryansnyder"><span itemprop="author" itemscope itemtype="http://schema.org/Person"><strong itemprop="name">Ryan Snyder</strong></span></a>, based on the shopping list we created when were preparing for the birth of our daughter Pepper, and what we learned after we all started using the products.</p>
         <center style="margin: 30px 0;">        
           <div class="avatar">
             <img class="lazy" data-src="https://pbs.twimg.com/profile_images/1602999976/182684_498982196889_575776889_6599782_1478112_n_400x400.jpg" />

@@ -47,6 +47,13 @@ $('.click-purchase-link').click(function(){
   }  
 });
 
+$('#print-list').click(function(){
+  if (isProductionEnvironment()) {
+    mixpanel.track("Page printed");	
+  }  
+  window.print();
+});
+
 // Native smooth scroll to element
 function smoothScrollTo(elementId) {
   var element = document.getElementById(elementId);
@@ -97,7 +104,7 @@ $(document).ready(function() {
   }
 
   $('#shopping-list').DataTable( {
-	  "order": [ 0, "asc" ],
+	  "order": [ [3, "asc"], [1, "asc"], [0, "asc"]],
 	  paging: false,
       "type": "num"
   });
@@ -106,7 +113,7 @@ $(document).ready(function() {
   $("#shopping-list_paginate").hide(); 
   $("#shopping-list_filter").hide();   
 
-  changeShowListText();
-  hideTableRows();
+  changeShowListText(); // Add # items to button
+  // hideTableRows(); // commenting out for experiment
 } );
 

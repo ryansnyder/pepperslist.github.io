@@ -245,6 +245,9 @@ img.photo {
 #hide-list {
   display: none;
 }
+#show-list {
+  display: none; /* For experiment */
+}
 #backToTop {
   position: fixed; 
   bottom: 20px;
@@ -256,6 +259,13 @@ img.photo {
   margin: 0;
   padding: 12px;
 }
+#buttons {
+  margin: 30px 0;	
+}
+#print-list {
+  margin-left: 15px;	
+}
+
 
 /* RESPONSIVE
 --------------------------------------------------- */
@@ -410,4 +420,29 @@ img.photo {
     vertical-align: top;
   }
 
+}
+
+/* PRINT
+-------------------------------------------------- */
+
+@media print {
+
+  #hide-list {
+    display: none;
+  }
+  #show-list {
+    display: none;
+  }
+  #backToTop {
+    display: none;
+  }
+  #buttons {
+    display: none;
+  }
+  #product-details {
+    display: none;	
+  }
+  .about {
+    display: none;		
+  }
 }
