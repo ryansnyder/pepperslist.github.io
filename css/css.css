@@ -135,14 +135,19 @@ hr {
 }
 div.avatar {
   border-radius: 50%;
-  margin-top: 20px;
+  display: inline-block; 
+  margin-right: 20px;
   overflow: hidden;
   position: relative;
   text-align: center;
 }
-div.avatar, div.avatar img {
-  width: 75px;
-  height: 75px;
+div.about-plus-equals {
+  display: inline-block; 
+  margin-left: 0px;
+  margin-right: 20px;
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
 }
 div.buy,
 div.photo {
@@ -337,6 +342,14 @@ img.photo {
   #shopping-list {
     font-size: 10pt;	
   }
+  div.avatar, div.avatar img {
+    width: 40px;
+    height: 40px; 
+  }
+  div.about-plus-equals {
+    padding-top: 0px;
+    font-size: 14pt;	
+  }
 }
 @media(min-width:767px){
   .hide-under-768 {
@@ -393,6 +406,16 @@ img.photo {
   }
   #shopping-list {
     font-size: 11pt;	
+  }
+  div.avatar, div.avatar img {
+    width: 75px;
+    height: 75px; 
+  }
+  div.about-plus-equals {
+	height: 75px;
+	line-height: 75px;
+    font-size: 16pt;
+    vertical-align: top;
   }
 
 }
