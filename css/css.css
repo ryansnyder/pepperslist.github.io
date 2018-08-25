@@ -190,15 +190,13 @@ img.photo {
 -------------------------------------------------- */
 
 .btn {
-  text-transform: uppercase;	
-}
-.btn {
   cursor: pointer; 
   cursor: hand;
   font-weight: 200;
   letter-spacing: 0.1em;
   text-align: center;
   text-shadow: none !important;
+  text-transform: uppercase;	
 }
 .btn-peppercorn {
   background-color: #e66151 !important;
@@ -283,18 +281,18 @@ img.photo {
   }
   h4 {
     font-size: 14pt;
-    line-height: 28pt;
+    line-height: 20pt;
     margin: 0 0 20px 0;
   }
   h5 { /* SECTION HEADER */
-    font-size: 9pt !important; /* 14pt; */ 
+    font-size: 9pt !important;
     letter-spacing: .1em;
-    line-height: 20pt; /* 24pt; */ 
+    line-height: 20pt;
     margin: 20px 0 0 0;
   }
   h6 { /* FEATURE TEXT */
-    font-size: 18pt; /* 24pt; */
-    line-height: 24pt; /* 36pt; */
+    font-size: 18pt;
+    line-height: 24pt;
   }
   p {
     font-size:  12pt;
@@ -329,7 +327,7 @@ img.photo {
   }
   .btn {
     border-radius: 14px !important;
-    font-size: 8pt !important;
+    font-size: 7pt !important;
     min-width: 80px;
     padding: 5px 7px !important;
   }
@@ -388,15 +386,9 @@ img.photo {
   }
   .btn {
     border-radius: 14px !important;
-    font-size: 7pt !important;
+    font-size: 8pt !important;
     min-width: 100px;
     padding: 7px 12px !important;
-  }
-  .btn-large {
-    border-radius: 20px !important;
-    font-size: 10pt !important;
-    min-width: 140px;
-    padding: 10px 15px !important;
   }
   th.shopping-list-type,
   th.shopping-list-time,
