@@ -54,6 +54,16 @@ $('#print-list').click(function(){
   window.print();
 });
 
+$('#subcribe').click(function(){
+  if (isProductionEnvironment()) {
+    mixpanel.track("Clicked subcribe button");	
+  }  
+  window.open("http://eepurl.com/dE9rgD", "_new");
+});
+
+
+http://eepurl.com/dE9rgD
+
 // Native smooth scroll to element
 function smoothScrollTo(elementId) {
   var element = document.getElementById(elementId);
