@@ -61,14 +61,50 @@ $('#subcribe').click(function(){
   window.open("http://eepurl.com/dE9rgD", "_new"); // Open mailchimp form in new tab
 });
 
-
-http://eepurl.com/dE9rgD
-
 // Native smooth scroll to element
 function smoothScrollTo(elementId) {
-  var element = document.getElementById(elementId);
-  element.scrollIntoView({ behavior: "smooth" });	
-  return false;
+	
+    var offset = 0;
+    
+    offset = $("#" + elementId).offset().top;
+    
+    $('html, body').animate({
+        scrollTop: offset
+    }, 550);	
+    
+
+    // var offset = $('#' + elementId).position().top + $('#' + elementId).outerHeight(true);
+    // console.log(offset);
+    // 
+    // var offset = $('#' + elementId).offset().top + $('#' + elementId).outerHeight(true);
+    // console.log(offset);
+    // 
+    // var offset = $('#' + elementId).prop('scrollHeight');
+    // var offset = document.getElementById(elementId).scrollHeight;
+    // console.log("scrollHeight");
+    // console.log(offset);
+    // 
+    // var poo = document.getElementById(elementId).getBoundingClientRect().top;
+    // console.log('huh');
+    // console.log(poo)
+    // 
+    // $('html, body').animate({
+	//     scrollTop: offset
+	// }, 550);
+	
+//   console.log(elementId);
+// 
+//   var topofDiv = $("#" + elementId).offset().top;
+// 
+//   console.log(topofDiv);
+// 
+//   var height = $("#" + elementId).outerHeight();
+//   var scrollTo = topofDiv - height;
+// 
+// // console.log(topofDiv)
+//   $('html,body').animate( { scrollTop: scrollTo } ,'slow');
+//   return false;
+// 
 }
 
 function isProductionEnvironment() {
@@ -107,7 +143,7 @@ function changeShowListText() {
 }
 
 $(document).ready(function() {
-  $('.lazy').lazy(); // lazy load images
+//  $('.lazy').lazy(); // lazy load images
 	
   if (isProductionEnvironment()) {
     mixpanel.track("Page load");	
