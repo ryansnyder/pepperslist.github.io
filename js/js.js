@@ -9,7 +9,7 @@ $('#hide-list').click(function(){
   $('#hide-list').hide();
   $('#show-list').show();
   if (isProductionEnvironment()) {
-    mixpanel.track("Hide shopping list");	
+    mixpanel.track("Click hide shopping list");	
   }
   $('html,body').animate( { scrollTop: 0 } ,'slow');
   return false;
@@ -20,7 +20,7 @@ $('#show-list').click(function(){
   $('#hide-list').show();
   $('#show-list').hide();
   if (isProductionEnvironment()) {
-    mixpanel.track("Show shopping list");	 
+    mixpanel.track("Click show shopping list button");	 
   }
 });
 
@@ -37,7 +37,7 @@ $('.soft-scroll').click(function(){
 
 $('#view-spreadsheet').click(function(){
   if (isProductionEnvironment()) {
-    mixpanel.track("View spreadsheet");	
+    mixpanel.track("Click view spreadsheet button");	
   }  
 });
 
@@ -49,14 +49,14 @@ $('.click-purchase-link').click(function(){
 
 $('#print-list').click(function(){
   if (isProductionEnvironment()) {
-    mixpanel.track("Page printed");	
+    mixpanel.track("Click print page button");	
   }  
   window.print();
 });
 
 $('#subcribe').click(function(){
   if (isProductionEnvironment()) {
-    mixpanel.track("Clicked subcribe button");	
+    mixpanel.track("Click subcribe button");	
   }  
   window.open("http://eepurl.com/dE9rgD", "_new");
 });

@@ -20,13 +20,16 @@ button, .ui-menu-item {
   font-weight: 400;
   color: #404549;
 }
-h1 {
+h1, h6 {
   color: #173e43;
   font-family: 'Dancing Script', 'Hind', "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", "Helvetica", sans-serif;  ;	
 }
 h2, h3, h4, h5 {
   color: #173e43;
   font-family: 'Hind', "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", "Helvetica", sans-serif;  
+}
+h5 {
+  text-transform: uppercase;
 }
 .center {
   text-align: center !important;
@@ -42,9 +45,6 @@ h2, h3, h4, h5 {
 }
 .bold {
   font-style: bold;
-}
-h5 {
-  text-transform: uppercase;
 }
 a,
 a:active,
@@ -84,6 +84,16 @@ p a:hover {
 hr {
   margin: 30px 0;
 }
+
+
+/* COLORS
+--------------------------------------------------- */
+
+.white {
+  color: white;
+}
+
+
 
 /* DIVS
 --------------------------------------------------- */
@@ -143,9 +153,7 @@ div.avatar {
 }
 div.about-plus-equals {
   display: inline-block; 
-  margin-left: 0px;
-  margin-right: 20px;
-  position: relative;
+  margin: 0px 15px;
   text-align: center;
   vertical-align: middle;
 }
@@ -171,6 +179,8 @@ th {
   border: none !important;
   font-weight: bold;
 }
+
+
 
 /* IMAGES
 -------------------------------------------------- */
@@ -295,8 +305,8 @@ img.photo {
     margin: 20px 0 0 0;
   }
   h6 { /* FEATURE TEXT */
-    font-size: 18pt;
-    line-height: 24pt;
+    font-size: 12pt;
+    line-height: 16pt;
   }
   p {
     font-size:  12pt;
@@ -358,6 +368,27 @@ img.photo {
   #buttons button {
     margin: 0 5px;		
   }
+  .header-pepper {
+	display: none;
+    text-align: center;
+  }
+  table.d-plus-r-equals-p {
+    margin: 10px 10px 0 0;
+  }
+  table.d-plus-r-equals-p > tbody > tr > td {
+    text-align: center;
+  }
+  table.d-plus-r-equals-p > tbody > tr > td.td-avatar {
+    max-width: 30px;
+  }
+  table.d-plus-r-equals-p > tbody > tr > td div.avatar, 
+  table.d-plus-r-equals-p > tbody > tr > td div.avatar img {
+    width: 30px;
+    height: 30px; 
+  }
+  table.d-plus-r-equals-p > tbody > tr > td div.about-plus-equals {
+    font-size: 12pt;
+  }
 }
 @media(min-width:767px){
   .hide-under-768 {
@@ -387,8 +418,8 @@ img.photo {
     margin: 20px 0 0 0;
   }
   h6 { /* FEATURE TEXT */
-    font-size: 18pt; /* 24pt; */
-    line-height: 24pt; /* 36pt; */
+    font-size: 14pt;
+    line-height: 18pt;
   }
   p {
     font-size:  14pt;
@@ -424,6 +455,23 @@ img.photo {
   }
   #buttons button {
     margin: 0 10px;		
+  }
+  .header-pepper {
+    text-align: right;
+    margin-left: auto; 
+    margin-right: 0px;
+  }
+  table.d-plus-r-equals-p {
+    margin: 25px 50px 0 0;
+  }
+  table.d-plus-r-equals-p > tbody > tr > td {
+    max-width: 50px;
+    text-align: center;
+  }
+  table.d-plus-r-equals-p > tbody > tr > td div.avatar, 
+  table.d-plus-r-equals-p > tbody > tr > td div.avatar img {
+    width: 50px;
+    height: 50px; 
   }
 }
 
