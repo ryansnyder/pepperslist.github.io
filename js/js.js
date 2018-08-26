@@ -58,7 +58,7 @@ $('#subcribe').click(function(){
   if (isProductionEnvironment()) {
     mixpanel.track("Click subcribe button");	
   }  
-  window.open("http://eepurl.com/dE9rgD", "_new");
+  window.open("http://eepurl.com/dE9rgD", "_new"); // Open mailchimp form in new tab
 });
 
 
