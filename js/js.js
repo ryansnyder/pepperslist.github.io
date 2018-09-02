@@ -126,7 +126,7 @@ $(document).ready(function() {
   }
 
   $('#shopping-list').DataTable( {
-	  "order": [ [3, "asc"], [1, "asc"], [0, "asc"]],
+	  "order": [ [4, "asc"], [2, "asc"], [0, "asc"]],
 	  paging: false,
       "type": "num"
   });
