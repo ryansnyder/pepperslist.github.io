@@ -354,9 +354,9 @@ img.photo {
     min-width: 80px;
     padding: 5px 7px !important;
   }
-  th.shopping-list-type,
+  th.shopping-list-need,
   th.shopping-list-time,
-  td.shopping-list-type,
+  td.shopping-list-need,
   td.shopping-list-time {
 	 display: none;
   }
