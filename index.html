@@ -137,9 +137,12 @@
         <thead>
           <tr>
             <th scope="col" class="shopping-list-item">Item</th>
+            <th scope="col" class="shopping-list-recommendation">Recommendation</th>            
             <th scope="col" class="shopping-list-type">How will I use this?</th>
-            <th scope="col" class="shopping-list-need"><span class="hide-under-768">Do I really need this?</span><span class="show-under-768">Necessary?</span></th>            
+            <th scope="col" class="shopping-list-need"><span class="hide-under-768">Do I need this?</span><span class="show-under-768">Necessary?</span></th>            
             <th scope="col" class="shopping-list-time">When to buy</th>                        
+            <th scope="col" class="shopping-list-amazon"></th>     
+            <th scope="col" class="shopping-list-amazon-url"></td>                      
           </tr>
         </thead>
         <tbody>
@@ -148,237 +151,347 @@
           
           <tr class="show-initially">
             <td class="shopping-list-item" data-order="0"><a class="dotted soft-scroll" href="#stroller">Stroller + car seat</a></td>
+            <td class="shopping-list-recommendation">&mdash;</td>                           
             <td class="shopping-list-type">Out + about</td>
             <td class="shopping-list-need">Mandatory</td>            
-            <td class="shopping-list-time" data-order="5">month 5</td>                        
+            <td class="shopping-list-time" data-order="5">month 5</td>        
+            <td class="shopping-list-amazon"></td>      
+            <td class="shopping-list-amazon-url"></td>                                     
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="11"><a class="dotted soft-scroll" href="#baby-carrier">Baby carrier</a></td>
+            <td class="shopping-list-recommendation">&mdash;</td>                           
             <td class="shopping-list-type">Out + about</td>
             <td class="shopping-list-need">Nice to have</td>            
-            <td class="shopping-list-time" data-order="10">after birth</td>                        
+            <td class="shopping-list-time" data-order="10">after birth</td>   
+            <td class="shopping-list-amazon"></td>      
+            <td class="shopping-list-amazon-url"></td>                                          
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="20">Baby blanket - 2x</td>
+            <td class="shopping-list-recommendation">&mdash;</td>                           
             <td class="shopping-list-type">Out + about</td>
             <td class="shopping-list-need">Mandatory</td>            
-            <td class="shopping-list-time" data-order="5">month 5</td>                        
+            <td class="shopping-list-time" data-order="5">month 5</td>     
+            <td class="shopping-list-amazon"></td>       
+            <td class="shopping-list-amazon-url"></td>                                       
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="20">Baby sling</td>
+            <td class="shopping-list-recommendation">&mdash;</td>                           
             <td class="shopping-list-type">Out + about</td>
             <td class="shopping-list-need">Nice to have</td>            
             <td class="shopping-list-time" data-order="10">after birth</td>                        
+            <td class="shopping-list-amazon"></td>     
+            <td class="shopping-list-amazon-url"></td>                      
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="20"><a class="dotted soft-scroll" href="#travel-crib">Travel crib / basinette</a></td>
+            <td class="shopping-list-recommendation">&mdash;</td>                           
             <td class="shopping-list-type">Out + about</td>
             <td class="shopping-list-need">Nice to have</td>            
             <td class="shopping-list-time" data-order="5">month 5</td>
+            <td class="shopping-list-amazon"></td>   
+            <td class="shopping-list-amazon-url"></td>                        
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="20"><a class="dotted soft-scroll" href="#travel-crib">Travel crib / basinette fitted bed sheets</a></td>
+            <td class="shopping-list-recommendation">&mdash;</td>                           
             <td class="shopping-list-type">Out + about</td>
             <td class="shopping-list-need">Nice to have</td>            
             <td class="shopping-list-time" data-order="5">month 5</td>
+            <td class="shopping-list-amazon"></td>     
+            <td class="shopping-list-amazon-url"></td>                      
           </tr>
 
           <!-- nursery -->
           
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="50"><a class="dotted soft-scroll" href="#cosleeping-crib">Co-sleeping crib</a></td>
+            <td class="shopping-list-recommendation">&mdash;</td>                           
             <td class="shopping-list-type">Bedroom</td>
             <td class="shopping-list-need">Nice to have</td>            
-            <td class="shopping-list-time" data-order="7">month 7</td>                        
+            <td class="shopping-list-time" data-order="7">month 7</td>     
+            <td class="shopping-list-amazon"></td>    
+            <td class="shopping-list-amazon-url"></td>                                          
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="50"><a class="dotted soft-scroll" href="#spare-mattress">Spare mattress</a></td>
+            <td class="shopping-list-recommendation">&mdash;</td>                           
             <td class="shopping-list-type">Bedroom</td>
             <td class="shopping-list-need">Not necessary</td>            
-            <td class="shopping-list-time" data-order="7">month 7</td>                        
+            <td class="shopping-list-time" data-order="7">month 7</td>    
+            <td class="shopping-list-amazon"></td>     
+            <td class="shopping-list-amazon-url"></td>                                          
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="50"><a class="dotted soft-scroll" href="#spare-mattress-fitted-sheet">Spare mattress fitted sheet</a></td>
+            <td class="shopping-list-recommendation">&mdash;</td>                           
             <td class="shopping-list-type">Bedroom</td>
             <td class="shopping-list-need">Not necessary</td>            
-            <td class="shopping-list-time" data-order="7">month 7</td>                        
+            <td class="shopping-list-time" data-order="7">month 7</td>         
+            <td class="shopping-list-amazon"></td>                           
+            <td class="shopping-list-amazon-url"></td>               
           </tr>
           
           <!-- nursery -->
           
           <tr class="show-initially">
             <td class="shopping-list-item" data-order="2"><a class="dotted soft-scroll" href="#crib">Crib + toddler bed</a></td>
+            <td class="shopping-list-recommendation">&mdash;</td>                           
             <td class="shopping-list-type">Nursery</td>
             <td class="shopping-list-need">Mandatory</td>            
-            <td class="shopping-list-time" data-order="4">month 4</td>                        
+            <td class="shopping-list-time" data-order="4">month 4</td>             
+            <td class="shopping-list-amazon"></td>         
+            <td class="shopping-list-amazon-url"></td>                             
           </tr>
           <tr class="show-initially">
             <td class="shopping-list-item" data-order="3"><a class="dotted soft-scroll" href="#crib-mattress">Crib mattress</a></td>
+            <td class="shopping-list-recommendation">&mdash;</td>               
             <td class="shopping-list-type">Nursery</td>
             <td class="shopping-list-need">Mandatory</td>            
-            <td class="shopping-list-time" data-order="4">month 4</td>                        
+            <td class="shopping-list-time" data-order="4">month 4</td>    
+            <td class="shopping-list-amazon"></td>         
+            <td class="shopping-list-amazon-url"></td>                                      
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="80"><a class="dotted soft-scroll" href="#crib-bedding">Crib bedding - 3x</a></td>
+            <td class="shopping-list-recommendation">&mdash;</td>                           
             <td class="shopping-list-type">Nursery</td>
             <td class="shopping-list-need">Mandatory</td>            
-            <td class="shopping-list-time" data-order="4">month 4</td>                        
+            <td class="shopping-list-time" data-order="4">month 4</td>           
+            <td class="shopping-list-amazon"></td>       
+            <td class="shopping-list-amazon-url"></td>                                 
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="80"><a class="dotted soft-scroll" href="#baby-monitor">Baby monitor</a></td>
+            <td class="shopping-list-recommendation">&mdash;</td>               
             <td class="shopping-list-type">Nursery</td>
             <td class="shopping-list-need">Mandatory</td>            
             <td class="shopping-list-time" data-order="4">month 4</td>
+            <td class="shopping-list-amazon"></td>       
+            <td class="shopping-list-amazon-url"></td>                    
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="80">Laundry basket / bag</td>
+            <td class="shopping-list-recommendation">&mdash;</td>               
             <td class="shopping-list-type">Nursery</td>
             <td class="shopping-list-need">Nice to have</td>            
             <td class="shopping-list-time" data-order="4">month 4</td>
+            <td class="shopping-list-amazon"></td>    
+            <td class="shopping-list-amazon-url"></td>                       
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="80"><a class="dotted soft-scroll" href="#humidifier">Humidifier</a></td>
+            <td class="shopping-list-recommendation">&mdash;</td>               
             <td class="shopping-list-type">Nursery</td>
             <td class="shopping-list-need">Mandatory</td>            
-            <td class="shopping-list-time" data-order="4">month 4</td>                        
+            <td class="shopping-list-time" data-order="4">month 4</td>   
+            <td class="shopping-list-amazon"></td>     
+            <td class="shopping-list-amazon-url"></td>                                           
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="80"><a class="dotted soft-scroll" href="#thermometer-hygrometer">Humidity monitor + thermometer</a></td>
+            <td class="shopping-list-recommendation">&mdash;</td>               
             <td class="shopping-list-type">Nursery</td>
             <td class="shopping-list-need">Nice to have</td>            
-            <td class="shopping-list-time" data-order="4">month 4</td>                        
+            <td class="shopping-list-time" data-order="4">month 4</td>     
+            <td class="shopping-list-amazon"></td>                               
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="80"><a class="dotted soft-scroll" href="#disposable-mattress-protectors">Disposable mattress protectors</a></td>
+            <td class="shopping-list-recommendation">&mdash;</td>               
             <td class="shopping-list-type">Nursery</td>
             <td class="shopping-list-need">Nice to have</td>            
             <td class="shopping-list-time" data-order="4">month 4</td>
+            <td class="shopping-list-amazon"></td>            
+            <td class="shopping-list-amazon-url"></td>               
           </tr>          
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="80">Muslin blankets - 5x</td>
+            <td class="shopping-list-recommendation">&mdash;</td>               
             <td class="shopping-list-type">Nursery</td>
             <td class="shopping-list-need">Mandatory</td>            
             <td class="shopping-list-time" data-order="4">month 4</td>
+            <td class="shopping-list-amazon"></td>           
+            <td class="shopping-list-amazon-url"></td>                
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="80"><a class="dotted soft-scroll" href="#toy-chest">Toy chest</a></td>
+            <td class="shopping-list-recommendation">&mdash;</td>               
             <td class="shopping-list-type">Nursery</td>
             <td class="shopping-list-need">Nice to have</td>            
-            <td class="shopping-list-time" data-order="4">month 4</td>                        
+            <td class="shopping-list-time" data-order="4">month 4</td>  
+            <td class="shopping-list-amazon"></td>             
+            <td class="shopping-list-amazon-url"></td>                                    
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="80"><a class="dotted soft-scroll" href="#first-toy">First toy</a></td>
+            <td class="shopping-list-recommendation">&mdash;</td>               
             <td class="shopping-list-type">Nursery</td>
             <td class="shopping-list-need">Not necessary</td>            
             <td class="shopping-list-time" data-order="4">month 4</td>                        
+            <td class="shopping-list-amazon"></td>       
+            <td class="shopping-list-amazon-url"></td>                    
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="80"><a class="dotted soft-scroll" href="#baby-night-light">Baby night light</a></td>
+            <td class="shopping-list-recommendation"><a class="dotted soft-scroll" href="#baby-night-light">Skip Hop Owl Baby Night Light</a></td>               
             <td class="shopping-list-type">Nursery</td>
             <td class="shopping-list-need">Not necessary</td>            
-            <td class="shopping-list-time" data-order="4">month 4</td>                        
+            <td class="shopping-list-time" data-order="4">month 4</td>
+            <td class="shopping-list-amazon"><a target="_new" href="https://amzn.to/2MtWBdM" class="click-table-link"><i class="fab fa-amazon"></i></a></td>       
+            <td class="shopping-list-amazon-url">https://amzn.to/2MtWBdM</td>                                       
           </tr>
 
           <!-- Nursing / Feeding -->          
 
           <tr class="show-initially">
             <td class="shopping-list-item" data-order="70"><a class="dotted soft-scroll" href="#breast-pump">Breast pump</a></td>
+            <td class="shopping-list-recommendation"><a class="dotted soft-scroll" href="#breast-pump">Medela Breast Pump Solution Set</a></td>               
             <td class="shopping-list-type">Nursing / Feeding</td>
             <td class="shopping-list-need">Mandatory</td>            
             <td class="shopping-list-time" data-order="7">month 7</td>
+            <td class="shopping-list-amazon"><a target="_new" href="https://amzn.to/2nRgFYP" class="click-table-link"><i class="fab fa-amazon"></i></a></td>           
+            <td class="shopping-list-amazon-url">https://amzn.to/2nRgFYP</td>                                      
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="70"><a class="dotted soft-scroll" href="#nursing-pillow">Nursing pillow</a></td>
+            <td class="shopping-list-recommendation">&mdash;</td>               
             <td class="shopping-list-type">Nursing / Feeding</td>
             <td class="shopping-list-need">Mandatory</td>            
             <td class="shopping-list-time" data-order="7">month 7</td>
+            <td class="shopping-list-amazon"><a target="_new" href="https://amzn.to/2MPaOOz" class="click-table-link"><i class="fab fa-amazon"></i></a></td>       
+            <td class="shopping-list-amazon-url">https://amzn.to/2MPaOOz</td>
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="70"><a class="dotted soft-scroll" href="#burp-cloths">Burp cloths - 10x</a></td>
+            <td class="shopping-list-recommendation">&mdash;</td>                       
             <td class="shopping-list-type">Nursing / Feeding</td>
             <td class="shopping-list-need">Mandatory</td>            
             <td class="shopping-list-time" data-order="7">month 7</td>
+            <td class="shopping-list-amazon"></td>      
+            <td class="shopping-list-amazon-url"></td>                                    
           </tr>          
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="70"><a class="dotted soft-scroll" href="#bottle-sterilizer">Bottle sterilizer</a></td>
+            <td class="shopping-list-recommendation">&mdash;</td>               
             <td class="shopping-list-type">Nursing / Feeding</td>
             <td class="shopping-list-need">Mandatory</td>            
             <td class="shopping-list-time" data-order="7">month 7</td>
+            <td class="shopping-list-amazon"></td>       
+            <td class="shopping-list-amazon-url"></td>                                   
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="70"><a class="dotted soft-scroll" href="#bottles">Baby bottles</a></td>
+            <td class="shopping-list-recommendation">&mdash;</td>               
             <td class="shopping-list-type">Nursing / Feeding</td>
             <td class="shopping-list-need">Mandatory</td>            
             <td class="shopping-list-time" data-order="7">month 7</td>
+            <td class="shopping-list-amazon"></td>        
+            <td class="shopping-list-amazon-url"></td>                                  
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="70"><a class="dotted soft-scroll" href="#bottle-brush">Baby bottle brush</a></td>
+            <td class="shopping-list-recommendation">&mdash;</td>               
             <td class="shopping-list-type">Nursing / Feeding</td>
             <td class="shopping-list-need">Nice to have</td>            
             <td class="shopping-list-time" data-order="7">month 7</td>
+            <td class="shopping-list-amazon"></td>            
+            <td class="shopping-list-amazon-url"></td>                              
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="70"><a class="dotted soft-scroll" href="#bottle-drying-rack">Baby bottle drying rack</a></td>
+            <td class="shopping-list-recommendation">&mdash;</td>               
             <td class="shopping-list-type">Nursing / Feeding</td>
-            <td class="shopping-list-need">Nice to have</td>            
+            <td class="shopping-list-need">Not necessary</td>            
             <td class="shopping-list-time" data-order="7">month 7</td>
+            <td class="shopping-list-amazon"></td>       
+            <td class="shopping-list-amazon-url"></td>                                   
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="70">Muslin squares - 5x</td>
+            <td class="shopping-list-recommendation">&mdash;</td>               
             <td class="shopping-list-type">Nursing / Feeding</td>
             <td class="shopping-list-need">Mandatory</td>            
             <td class="shopping-list-time" data-order="7">month 7</td>
+            <td class="shopping-list-amazon"></td>       
+            <td class="shopping-list-amazon-url"></td>                                   
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="70">Teat brush</td>
+            <td class="shopping-list-recommendation">&mdash;</td>               
             <td class="shopping-list-type">Nursing / Feeding</td>
             <td class="shopping-list-need">Nice to have</td>            
             <td class="shopping-list-time" data-order="7">month 7</td>
+            <td class="shopping-list-amazon"></td>      
+            <td class="shopping-list-amazon-url"></td>                                    
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="70">Baby formula</td>
+            <td class="shopping-list-recommendation">&mdash;</td>               
             <td class="shopping-list-type">Nursing / Feeding</td>
             <td class="shopping-list-need">Depends</td>            
             <td class="shopping-list-time" data-order="7">month 7</td>
+            <td class="shopping-list-amazon"></td>       
+            <td class="shopping-list-amazon-url"></td>                                   
           </tr>
 
           <!-- Anywhere in the house -->          
           
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="99">Glider + ottoman</td>
+            <td class="shopping-list-recommendation">&mdash;</td>               
             <td class="shopping-list-type">Anywhere in the house</td>
             <td class="shopping-list-need">Nice to have</td>            
             <td class="shopping-list-time" data-order="6">month 6</td>
+            <td class="shopping-list-amazon"></td> 
+            <td class="shopping-list-amazon-url"></td>                                         
           </tr>  
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="99">Table for beside glider</td>
+            <td class="shopping-list-recommendation">&mdash;</td>               
             <td class="shopping-list-type">Anywhere in the house</td>
             <td class="shopping-list-need">Nice to have</td>            
             <td class="shopping-list-time" data-order="6">month 6</td>
+            <td class="shopping-list-amazon"></td>    
+            <td class="shopping-list-amazon-url"></td>                                      
           </tr> 
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="99">Lamp for beside glider</td>
+            <td class="shopping-list-recommendation">&mdash;</td>               
             <td class="shopping-list-type">Anywhere in the house</td>
             <td class="shopping-list-need">Nice to have</td>            
             <td class="shopping-list-time" data-order="6">month 6</td>
+            <td class="shopping-list-amazon"></td>        
+            <td class="shopping-list-amazon-url"></td>                                  
           </tr>                   
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="99"><a class="dotted soft-scroll" href="#activity-mat">Activity mat</a></td>
+            <td class="shopping-list-recommendation"><a class="dotted soft-scroll" href="#activity-mat">Skip Hop Baby Treetop Friends Activity Gym</a></td>               
             <td class="shopping-list-type">Anywhere in the house</td>
             <td class="shopping-list-need">Nice to have</td>            
             <td class="shopping-list-time" data-order="6">month 6</td>
+            <td class="shopping-list-amazon"><a target="_new" href="https://amzn.to/2N2Xw1j" class="click-table-link"><i class="fab fa-amazon"></i></a></td>       
+            <td class="shopping-list-amazon-url">https://amzn.to/2N2Xw1j</td>                                                                    
           </tr>               
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="99">Bouncer</td>
+            <td class="shopping-list-recommendation">&mdash;</td>               
             <td class="shopping-list-type">Anywhere in the house</td>
             <td class="shopping-list-need">Nice to have</td>            
             <td class="shopping-list-time" data-order="6">month 6</td>
+            <td class="shopping-list-amazon"></td> 
+            <td class="shopping-list-amazon-url"></td>                                         
           </tr>              
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="99"><a class="dotted soft-scroll" href="#night-lights">Night lights</a></td>
+            <td class="shopping-list-recommendation"><a class="dotted soft-scroll" href="#night-lights">GE 4-pack Night Lights</a></td>               
             <td class="shopping-list-type">Anywhere in the house</td>
             <td class="shopping-list-need">Nice to have</td>            
             <td class="shopping-list-time" data-order="6">month 6</td>
+            <td class="shopping-list-amazon"><a target="_new" href="https://amzn.to/2MqcVM1" class="click-table-link"><i class="fab fa-amazon"></i></a></td>       
+            <td class="shopping-list-amazon-url">https://amzn.to/2MqcVM1</td>                                   
           </tr>                  
           
 
@@ -386,314 +499,461 @@
           
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="90"><a class="dotted soft-scroll" href="#baby-bath">Baby bath</a></td>
+            <td class="shopping-list-recommendation"><a class="dotted soft-scroll" href="#baby-bath">Stokke Flexi Bath with Newborn Support</a></td>                  
             <td class="shopping-list-type">Bathing + Grooming</td>
             <td class="shopping-list-need">Mandatory</td>            
             <td class="shopping-list-time" data-order="7">month 7</td>
+            <td class="shopping-list-amazon"><a target="_new" href="https://amzn.to/2KPoB68" class="click-table-link"><i class="fab fa-amazon"></i></a></td>            
+            <td class="shopping-list-amazon-url">https://amzn.to/2KPoB68</td>                              
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="90"><a class="dotted soft-scroll" href="#baby-bath-rinser">Baby bath rinser</a></td>
+            <td class="shopping-list-recommendation"><a class="dotted soft-scroll" href="#baby-bath-rinser">Skip Hop Moby Bath Rinser</a></td>                  
             <td class="shopping-list-type">Bathing + Grooming</td>
             <td class="shopping-list-need">Not necessary</td>            
             <td class="shopping-list-time" data-order="7">month 7</td>
+            <td class="shopping-list-amazon"><a target="_new" href="https://amzn.to/2MnMvuY" class="click-table-link"><i class="fab fa-amazon"></i></a></td>            
+            <td class="shopping-list-amazon-url">https://amzn.to/2MnMvuY</td>                  
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="90"><a class="dotted soft-scroll" href="#baby-shampoo">Baby shampoo + wash</a></td>
+            <td class="shopping-list-recommendation"><a class="dotted soft-scroll" href="#baby-shampoo">Burt's Bees Baby Shampoo + Wash</a></td>                  
             <td class="shopping-list-type">Bathing + Grooming</td>
             <td class="shopping-list-need">Mandatory</td>            
             <td class="shopping-list-time" data-order="7">month 7</td>
+            <td class="shopping-list-amazon"><a target="_new" href="https://amzn.to/2L4Mero" class="click-table-link"><i class="fab fa-amazon"></i></a></td>            
+            <td class="shopping-list-amazon-url">https://amzn.to/2L4Mero</td>                  
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="90"><a class="dotted soft-scroll" href="#baby-wash-cloths">Baby wash cloths - 5x</a></td>
+            <td class="shopping-list-recommendation"><a class="dotted soft-scroll" href="#baby-wash-cloths">Kyte Baby Wash Cloths</a></td>          
             <td class="shopping-list-type">Bathing + Grooming</td>
             <td class="shopping-list-need">Mandatory</td>            
             <td class="shopping-list-time" data-order="7">month 7</td>
+            <td class="shopping-list-amazon"></td>            
+            <td class="shopping-list-amazon-url"></td>                  
           </tr>
           <tr class="hide-initially">
-            <td class="shopping-list-item" data-order="90">Baby bath towels</td>
+            <td class="shopping-list-item" data-order="90">Baby bath towels - 4x</td>
+            <td class="shopping-list-recommendation">&mdash;</td>                          
             <td class="shopping-list-type">Bathing + Grooming</td>
             <td class="shopping-list-need">Nice to have</td>            
             <td class="shopping-list-time" data-order="7">month 7</td>
+            <td class="shopping-list-amazon"></td>           
+            <td class="shopping-list-amazon-url"></td>               
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="90"><a class="dotted soft-scroll" href="#temporal-scanner-thermometer">Temporal scanner thermometer</a></td>
+            <td class="shopping-list-recommendation"><a class="dotted soft-scroll" href="#temporal-scanner-thermometer">Exergen Temporal Artery Thermometer TAT-2000C</a></td>                          
             <td class="shopping-list-type">Bathing + Grooming</td>
             <td class="shopping-list-need">Mandatory</td>            
             <td class="shopping-list-time" data-order="7">month 7</td>
+            <td class="shopping-list-amazon"><a target="_new" href="https://amzn.to/2o2pE9S" class="click-table-link"><i class="fab fa-amazon"></i></a></td>                    
+            <td class="shopping-list-amazon-url">https://amzn.to/2o2pE9S</td>                 
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="90"><a class="dotted soft-scroll" href="#grooming-kit">Underarm Thermometer</a></td>
+            <td class="shopping-list-recommendation"><a class="dotted soft-scroll" href="#grooming-kit">Boon Care Health and Grooming Kit</a></td>                                                                         
             <td class="shopping-list-type">Bathing + Grooming</td>
             <td class="shopping-list-need">Mandatory</td>            
             <td class="shopping-list-time" data-order="7">month 7</td>
+            <td class="shopping-list-amazon"><a target="_new" href="https://amzn.to/2MVjGT6" class="click-table-link"><i class="fab fa-amazon"></i></a></td>            
+            <td class="shopping-list-amazon-url">https://amzn.to/2MVjGT6</td>                                                                                 
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="90"><a class="dotted soft-scroll" href="#grooming-kit">Nasal Aspirator</a></td>
+            <td class="shopping-list-recommendation"><a class="dotted soft-scroll" href="#grooming-kit">Boon Care Health and Grooming Kit</a></td>                                                
             <td class="shopping-list-type">Bathing + Grooming</td>
             <td class="shopping-list-need">Mandatory</td>            
             <td class="shopping-list-time" data-order="7">month 7</td>
+            <td class="shopping-list-amazon"><a target="_new" href="https://amzn.to/2MVjGT6" class="click-table-link"><i class="fab fa-amazon"></i></a></td>            
+            <td class="shopping-list-amazon-url">https://amzn.to/2MVjGT6</td>                                                                        
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="90"><a class="dotted soft-scroll" href="#grooming-kit">Hair Brush</a></td>
+            <td class="shopping-list-recommendation"><a class="dotted soft-scroll" href="#grooming-kit">Boon Care Health and Grooming Kit</a></td>                                              
             <td class="shopping-list-type">Bathing + Grooming</td>
             <td class="shopping-list-need">Mandatory</td>            
             <td class="shopping-list-time" data-order="7">month 7</td>
+            <td class="shopping-list-amazon"><a target="_new" href="https://amzn.to/2MVjGT6" class="click-table-link"><i class="fab fa-amazon"></i></a></td>            
+            <td class="shopping-list-amazon-url">https://amzn.to/2MVjGT6</td>                                       
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="90"><a class="dotted soft-scroll" href="#grooming-kit">Fingernail Clippers</a></td>
+            <td class="shopping-list-recommendation"><a class="dotted soft-scroll" href="#grooming-kit">Boon Care Health and Grooming Kit</a></td>                          
             <td class="shopping-list-type">Bathing + Grooming</td>
             <td class="shopping-list-need">Mandatory</td>            
             <td class="shopping-list-time" data-order="7">month 7</td>
+            <td class="shopping-list-amazon"><a target="_new" href="https://amzn.to/2MVjGT6" class="click-table-link"><i class="fab fa-amazon"></i></a></td>            
+            <td class="shopping-list-amazon-url">https://amzn.to/2MVjGT6</td>                                  
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="90"><a class="dotted soft-scroll" href="#grooming-kit">Medicine Spoon</a></td>
+            <td class="shopping-list-recommendation"><a class="dotted soft-scroll" href="#grooming-kit">Boon Care Health and Grooming Kit</a></td>
             <td class="shopping-list-type">Bathing + Grooming</td>
             <td class="shopping-list-need">Nice to have</td>            
             <td class="shopping-list-time" data-order="7">month 7</td>
+            <td class="shopping-list-amazon"><a target="_new" href="https://amzn.to/2MVjGT6" class="click-table-link"><i class="fab fa-amazon"></i></a></td>            
+            <td class="shopping-list-amazon-url">https://amzn.to/2MVjGT6</td>                           
           </tr>
           <tr class="hide-initially">
              <td class="shopping-list-item" data-order="90"><a class="dotted soft-scroll" href="#cotton">Cotton balls</a></td>
+             <td class="shopping-list-recommendation"><a class="dotted soft-scroll" href="#cotton">365 Everyday Value Organic Cotton Balls</a></td>
              <td class="shopping-list-type">Bathing + Grooming</td>
              <td class="shopping-list-need">Mandatory</td>            
              <td class="shopping-list-time" data-order="7">month 7</td>
+             <td class="shopping-list-amazon"><a target="_new" href="https://amzn.to/2MBmnfs" class="click-table-link"><i class="fab fa-amazon"></i></a></td>             
+             <td class="shopping-list-amazon-url">https://amzn.to/2MBmnfs</td>
            </tr>
            <tr class="hide-initially">
              <td class="shopping-list-item" data-order="90"><a class="dotted soft-scroll" href="#cotton">Cotton swabs</a></td>
+             <td class="shopping-list-recommendation"><a class="dotted soft-scroll" href="#cotton">Q-tips Cotton Swabs</a></td>                
              <td class="shopping-list-type">Bathing + Grooming</td>
              <td class="shopping-list-need">Mandatory</td>            
              <td class="shopping-list-time" data-order="7">month 7</td>
+             <td class="shopping-list-amazon"><a target="_new" href="https://amzn.to/2L4KgY2" class="click-table-link"><i class="fab fa-amazon"></i></a></td>            
+             <td class="shopping-list-amazon-url">https://amzn.to/2L4KgY2</td>                             
            </tr>
            <tr class="hide-initially">
              <td class="shopping-list-item" data-order="90"><a class="dotted soft-scroll" href="#avocado-oil">Avocado oil (for baby massage)</a></td>
+             <td class="shopping-list-recommendation"><a class="dotted soft-scroll" href="#avocado-oil">Vie Naturelle Avocado Oil</a></td>
              <td class="shopping-list-type">Bathing + Grooming</td>
              <td class="shopping-list-need">Mandatory</td>            
              <td class="shopping-list-time" data-order="7">month 7</td>
+             <td class="shopping-list-amazon"><a target="_new" href="https://amzn.to/2LdrP3H" class="click-table-link"><i class="fab fa-amazon"></i></a></td>      
+             <td class="shopping-list-amazon-url">https://amzn.to/2LdrP3H</td>                         
            </tr>
           
            <!-- Medicine -->  
            
            <tr class="hide-initially">
             <td class="shopping-list-item" data-order="91"><a class="dotted soft-scroll" href="#medicine">Pain reliever + fever reducer</a></td>
+            <td class="shopping-list-recommendation"><a class="dotted soft-scroll" href="#medicine">Infants' Tylenol Oral Suspension, Fever Reducer and Pain Reliever</a></td>               
             <td class="shopping-list-type">Medicine</td>
             <td class="shopping-list-need">Mandatory</td>            
             <td class="shopping-list-time" data-order="7">month 7</td>
+            <td class="shopping-list-amazon"><a target="_new" href="https://amzn.to/2OHLrin" class="click-table-link"><i class="fab fa-amazon"></i></a></td>            
+            <td class="shopping-list-amazon-url">https://amzn.to/2OHLrin</td>                 
           </tr> 
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="91"><a class="dotted soft-scroll" href="#colic-relief">Colic + gas reliever</a></td>
+            <td class="shopping-list-recommendation"><a class="dotted soft-scroll" href="#colic-relief">Mommy's Bliss Gripe Water</a></td>             
             <td class="shopping-list-type">Medicine</td>
             <td class="shopping-list-need">Mandatory</td>            
             <td class="shopping-list-time" data-order="7">month 7</td>
+            <td class="shopping-list-amazon"><a target="_new" href="https://amzn.to/2wcYQHG" class="click-table-link"><i class="fab fa-amazon"></i></a></td>          
+            <td class="shopping-list-amazon-url">https://amzn.to/2wcYQHG</td>                   
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="91"><a class="dotted soft-scroll" href="#nasal-saline-spray">Nasal Saline Spray</a></td>
+            <td class="shopping-list-recommendation"><a class="dotted soft-scroll" href="#nasal-saline-spray">Little Remedies Saline Spray / Drops</a></td>                 
             <td class="shopping-list-type">Medicine</td>
             <td class="shopping-list-need">Mandatory</td>            
             <td class="shopping-list-time" data-order="7">month 7</td>
+            <td class="shopping-list-amazon"><a target="_new" href="https://amzn.to/2OJIVrS" class="click-table-link"><i class="fab fa-amazon"></i></a></td>          
+            <td class="shopping-list-amazon-url">https://amzn.to/2OJIVrS</td>                   
           </tr>
           
           <!-- Diaper change station / diaper bag -->         
 
           <tr class="show-initially">
             <td class="shopping-list-item" data-order="99"><a class="dotted soft-scroll" href="#diaper-changing-station">Diaper changing station</a></td>
+            <td class="shopping-list-recommendation"><a class="dotted soft-scroll" href="#diaper-changing-station">Babyletto Hudson Changer Dresser with Changing Tray</a></td>                 
             <td class="shopping-list-type">Diaper changing</td>
             <td class="shopping-list-need">Mandatory</td>            
             <td class="shopping-list-time" data-order="6">month 6</td>
+            <td class="shopping-list-amazon"><a target="_new" href="https://amzn.to/2Pr0iia" class="click-table-link"><i class="fab fa-amazon"></i></a></td>        
+            <td class="shopping-list-amazon-url">https://amzn.to/2Pr0iia</td>                
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="99"><a class="dotted soft-scroll" href="#diaper-changing-tray">Diaper changing tray</a></td>
+            <td class="shopping-list-recommendation"><a class="dotted soft-scroll" href="#diaper-changing-tray">Little Seeds Changing Table Tray</a></td>
             <td class="shopping-list-type">Diaper changing</td>
             <td class="shopping-list-need">Depends</td>            
             <td class="shopping-list-time" data-order="6">month 6</td>
+            <td class="shopping-list-amazon"><a target="_new" href="https://amzn.to/2ORAHOw" class="click-table-link"><i class="fab fa-amazon"></i></a></td>         
+            <td class="shopping-list-amazon-url">https://amzn.to/2ORAHOw</td>
           </tr>     
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="99"><a class="dotted soft-scroll" href="#diaper-changing-pad">Diaper changing pad</a></td>
+            <td class="shopping-list-recommendation"><a class="dotted soft-scroll" href="#diaper-changing-pad">LA Baby Waterproof Diaper Changing Pad</a></td>
             <td class="shopping-list-type">Diaper changing</td>
             <td class="shopping-list-need">Mandatory</td>            
             <td class="shopping-list-time" data-order="6">month 6</td>
+            <td class="shopping-list-amazon"><a target="_new" href="https://amzn.to/2Bcfk8D" class="click-table-link"><i class="fab fa-amazon"></i></a></td>       
+            <td class="shopping-list-amazon-url">https://amzn.to/2Bcfk8D</td>                                            
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="99"><a class="dotted soft-scroll" href="#diaper-changing-pad-cover">Diaper changing pad cover</a></td>
+            <td class="shopping-list-recommendation"><a class="dotted soft-scroll" href="#diaper-changing-pad-cover">Jomolly Changing Pad Cover</a></td>                    
             <td class="shopping-list-type">Diaper changing</td>
             <td class="shopping-list-need">Mandatory</td>            
             <td class="shopping-list-time" data-order="6">month 6</td>
+            <td class="shopping-list-amazon"><a target="_new" href="https://amzn.to/2OTNrV0" class="click-table-link"><i class="fab fa-amazon"></i></a></td>           
+            <td class="shopping-list-amazon-url">https://amzn.to/2OTNrV0</td>                         
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="99"><a class="dotted soft-scroll" href="#diaper-changing-pad-liners">Diaper changing pad liners</a></td>
+            <td class="shopping-list-recommendation"><a class="dotted soft-scroll" href="#diaper-changing-pad-liners">Munchkin Waterproof Changing Pad Liners</a></td>
             <td class="shopping-list-type">Diaper changing</td>
             <td class="shopping-list-need">Mandatory</td>            
             <td class="shopping-list-time" data-order="6">month 6</td>
+            <td class="shopping-list-amazon"><a target="_new" href="https://amzn.to/2LbgSj1" class="click-table-link"><i class="fab fa-amazon"></i></a></td>            
+            <td class="shopping-list-amazon-url">https://amzn.to/2LbgSj1</td>                  
           </tr>
           <tr class="hide-initially">
-            <td class="shopping-list-item" data-order="99">Portable diaper change bag</td>
+            <td class="shopping-list-item" data-order="99">Portable diaper change tote</td>
+            <td class="shopping-list-recommendation">&mdash;</td>                                                                                                   
             <td class="shopping-list-type">Diaper changing</td>
             <td class="shopping-list-need">Mandatory</td>            
             <td class="shopping-list-time" data-order="6">month 6</td>                        
+            <td class="shopping-list-amazon"></td>            
+            <td class="shopping-list-amazon-url"></td>                  
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="99">Portable diaper change mat</td>
+            <td class="shopping-list-recommendation">&mdash;</td>                                                                                                   
             <td class="shopping-list-type">Diaper changing</td>
             <td class="shopping-list-need">Mandatory</td>            
-            <td class="shopping-list-time" data-order="6">month 6</td>                        
+            <td class="shopping-list-time" data-order="6">month 6</td>       
+            <td class="shopping-list-amazon"></td>         
+            <td class="shopping-list-amazon-url"></td>                                
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="99"><a class="dotted soft-scroll" href="#diaper-trash-bin">Diaper trash bin</a></td>
+            <td class="shopping-list-recommendation"><a class="dotted soft-scroll" href="#diaper-trash-bin">Munchkin Diaper Trash Bin</a></td>                                                                                       
             <td class="shopping-list-type">Diaper changing</td>
             <td class="shopping-list-need">Mandatory</td>            
             <td class="shopping-list-time" data-order="6">month 6</td>
+            <td class="shopping-list-amazon"><a target="_new" href="https://amzn.to/2P7IuIZ" class="click-table-link"><i class="fab fa-amazon"></i></a></td>           
+            <td class="shopping-list-amazon-url">https://amzn.to/2P7IuIZ</td>             
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="99"><a class="dotted soft-scroll" href="#diaper-trash-bin-bags">Diaper trash bin bags</a></td>
+            <td class="shopping-list-recommendation"><a class="dotted soft-scroll" href="#diaper-trash-bin-bags">Munchkin Diaper Trash Bin Bags</a></td>                                                                                       
             <td class="shopping-list-type">Diaper changing</td>
             <td class="shopping-list-need">Mandatory</td>            
             <td class="shopping-list-time" data-order="6">month 6</td>
+            <td class="shopping-list-amazon"><a target="_new" href="https://amzn.to/2MNjp4z" class="click-table-link"><i class="fab fa-amazon"></i></a></td>            
+            <td class="shopping-list-amazon-url">https://amzn.to/2MNjp4z</td>                     
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="99"><a class="dotted soft-scroll" href="#diaper-trash-bags-diaper-tote">Diaper trash bags for diaper bag tote</a></td>
+            <td class="shopping-list-recommendation"><a class="dotted soft-scroll" href="#diaper-trash-bags-diaper-tote">Munchkin Arm and Hammer Diaper Bag Refills for Diaper Tote</a></td>                                                                           
             <td class="shopping-list-type">Diaper changing</td>
             <td class="shopping-list-need">Mandatory</td>            
             <td class="shopping-list-time" data-order="6">month 6</td>
+            <td class="shopping-list-amazon"><a target="_new" href="https://amzn.to/2OBABup" class="click-table-link"><i class="fab fa-amazon"></i></a></td>            
+            <td class="shopping-list-amazon-url">https://amzn.to/2OBABup</td>                     
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="10"><a class="dotted soft-scroll" href="#diapers">Newborn Diapers - 100x</a></td>
+            <td class="shopping-list-recommendation"><a class="dotted soft-scroll" href="#diapers">Newborn Diapers - 100x</a></td>
             <td class="shopping-list-type">Diaper changing</td>
             <td class="shopping-list-need">Mandatory</td>            
             <td class="shopping-list-time" data-order="6">month 6</td>
+            <td class="shopping-list-amazon"><a target="_new" href="https://amzn.to/2KSqyyH" class="click-table-link"><i class="fab fa-amazon"></i></a></td>            
+            <td class="shopping-list-amazon-url">https://amzn.to/2KSqyyH</td>            
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="10"><a class="dotted soft-scroll" href="#baby-wipes">Baby wipes - 300x</a></td>
+            <td class="shopping-list-recommendation"><a class="dotted soft-scroll" href="#diaper-rash-cream">Pampers Aqua Pure Baby Wipes</a></td>                                                               
             <td class="shopping-list-type">Diaper changing</td>
             <td class="shopping-list-need">Mandatory</td>            
             <td class="shopping-list-time" data-order="6">month 6</td>
+            <td class="shopping-list-amazon"><a target="_new" href="https://amzn.to/2OXg8Ab" class="click-table-link"><i class="fab fa-amazon"></i></a></td>            
+            <td class="shopping-list-amazon-url">https://amzn.to/2OXg8Ab</td>                        
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="99"><a class="dotted soft-scroll" href="#diaper-rash-cream">Diaper rash cream - 3x</a></td>
+            <td class="shopping-list-recommendation"><a class="dotted soft-scroll" href="#diaper-rash-cream">Honest Company Diaper Rash Cream</a></td>                                                               
             <td class="shopping-list-type">Diaper changing</td>
             <td class="shopping-list-need">Mandatory</td>            
             <td class="shopping-list-time" data-order="6">month 6</td>
+            <td class="shopping-list-amazon"><a target="_new" href="https://amzn.to/2MMK3KT" class="click-table-link"><i class="fab fa-amazon"></i></a></td>            
+            <td class="shopping-list-amazon-url">https://amzn.to/2MMK3KT</td>                                      
           </tr>
           
           <!-- Clothing -->
           
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="99">"Coming-home" outfit, for leaving hospital - 1x</td>
+            <td class="shopping-list-recommendation">&mdash;</td>                                                   
             <td class="shopping-list-type">Baby's clothing</td>
             <td class="shopping-list-need">Mandatory</td>            
             <td class="shopping-list-time" data-order="7">month 7</td>
+            <td class="shopping-list-amazon"></td>       
+            <td class="shopping-list-amazon-url"></td>                     
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="99"><a class="dotted soft-scroll" href="#onesies">One-piece full-body outfits - 6x</a></td>
+            <td class="shopping-list-recommendation"><a class="dotted soft-scroll" href="#onesies">Magnetic Me - Magnificent Baby Magnetic Onesies</a></td>                                                   
             <td class="shopping-list-type">Baby's clothing</td>
             <td class="shopping-list-need">Mandatory</td>            
             <td class="shopping-list-time" data-order="7">month 7</td>
+            <td class="shopping-list-amazon"><a target="_new" href="https://amzn.to/2Lq7et1" class="click-table-link"><i class="fab fa-amazon"></i></a></td>          
+            <td class="shopping-list-amazon-url">https://amzn.to/2Lq7et1</td>                  
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="99">Pull-on pants - 3x</td>
+            <td class="shopping-list-recommendation">&mdash;</td>                                       
             <td class="shopping-list-type">Baby's clothing</td>
             <td class="shopping-list-need">Mandatory</td>            
             <td class="shopping-list-time" data-order="7">month 7</td>
+            <td class="shopping-list-amazon"></td>            
+            <td class="shopping-list-amazon-url"></td>                        
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="99">T-shirts that snap-in crotch - 5x</td>
+            <td class="shopping-list-recommendation">&mdash;</td>                           
             <td class="shopping-list-type">Baby's clothing</td>
             <td class="shopping-list-need">Mandatory</td>            
             <td class="shopping-list-time" data-order="7">month 7</td>
+            <td class="shopping-list-amazon"></td>            
+            <td class="shopping-list-amazon-url"></td>            
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="99">Sweaters / jackets - 3x</td>
+            <td class="shopping-list-recommendation">&mdash;</td>                           
             <td class="shopping-list-type">Baby's clothing</td>
             <td class="shopping-list-need">Mandatory</td>            
             <td class="shopping-list-time" data-order="7">month 7</td>
+            <td class="shopping-list-amazon"></td>            
+            <td class="shopping-list-amazon-url"></td>                        
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="99">Socks - 6x</td>
+            <td class="shopping-list-recommendation">&mdash;</td>              
             <td class="shopping-list-type">Baby's clothing</td>
             <td class="shopping-list-need">Mandatory</td>            
             <td class="shopping-list-time" data-order="7">month 7</td>
+            <td class="shopping-list-amazon"></td>            
+            <td class="shopping-list-amazon-url"></td>                                                  
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="99">Hats - 2x</td>
+            <td class="shopping-list-recommendation">&mdash;</td>               
             <td class="shopping-list-type">Baby's clothing</td>
             <td class="shopping-list-need">Mandatory</td>            
             <td class="shopping-list-time" data-order="7">month 7</td>
+            <td class="shopping-list-amazon"></td>            
+            <td class="shopping-list-amazon-url"></td>                                      
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="99">Mittens - 2x</td>
+            <td class="shopping-list-recommendation">&mdash;</td>                           
             <td class="shopping-list-type">Baby's clothing</td>
             <td class="shopping-list-need">Mandatory</td>            
             <td class="shopping-list-time" data-order="7">month 7</td>
+            <td class="shopping-list-amazon"></td>            
+            <td class="shopping-list-amazon-url"></td>                                    
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="99">Swaddles - 2x</td>
+            <td class="shopping-list-recommendation">&mdash;</td>               
             <td class="shopping-list-type">Baby's clothing</td>
             <td class="shopping-list-need">Mandatory</td>            
             <td class="shopping-list-time" data-order="7">month 7</td>
+            <td class="shopping-list-amazon"></td>            
+            <td class="shopping-list-amazon-url"></td>                                    
           </tr>          
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="99">Baby sleeping bag - 2x</td>
+            <td class="shopping-list-recommendation">&mdash;</td>               
             <td class="shopping-list-type">Baby's clothing</td>
             <td class="shopping-list-need">Mandatory</td>            
             <td class="shopping-list-time" data-order="7">month 7</td>
+            <td class="shopping-list-amazon"></td>          
+            <td class="shopping-list-amazon-url"></td>                        
           </tr>
           
           <!-- Stuff for Mommy -->            
 
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="30"><a class="dotted soft-scroll" href="#boob-cream">Boob + tummy cream</a></td>
+            <td class="shopping-list-recommendation"><a class="dotted soft-scroll" href="#boob-cream">Mama Mio Your Pregnancy Essentials Kit</a></td>                                                                                                
             <td class="shopping-list-type">Stuff for mommy</td>
             <td class="shopping-list-need">Nice to have</td>            
             <td class="shopping-list-time" data-order="5">month 5</td>
+            <td class="shopping-list-amazon"><a target="_new" href="https://amzn.to/2nTObOr" class="click-table-link"><i class="fab fa-amazon"></i></a></td>              
+            <td class="shopping-list-amazon-url">https://amzn.to/2nTObOr</td>                                    
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="30"><a class="dotted soft-scroll" href="#nipple-gel-pads">Nipple gel pads</a></td>
+            <td class="shopping-list-recommendation"><a class="dotted soft-scroll" href="#nipple-gel-pads">Medela Hydrogel Pads</a></td>                                                                                    
             <td class="shopping-list-type">Stuff for mommy</td>
             <td class="shopping-list-need">Nice to have</td>            
             <td class="shopping-list-time" data-order="5">month 5</td>
+            <td class="shopping-list-amazon"><a target="_new" href="https://amzn.to/2MqrHmO" class="click-table-link"><i class="fab fa-amazon"></i></a></td>          
+            <td class="shopping-list-amazon-url">https://amzn.to/2MqrHmO</td>                  
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="30"><a class="dotted soft-scroll" href="#nipple-butter">Nipple butter</a></td>
+            <td class="shopping-list-recommendation">Earth Mama Organic Nipple Butter</td>            
             <td class="shopping-list-type">Stuff for mommy</td>
             <td class="shopping-list-need">Mandatory</td>            
             <td class="shopping-list-time" data-order="5">month 5</td>
+            <td class="shopping-list-amazon"><a target="_new" href="https://amzn.to/2N8MJmk" class="click-table-link"><i class="fab fa-amazon"></i></a></td>               
+            <td class="shopping-list-amazon-url"><a target="_new" href="https://amzn.to/2N8MJmk" class="click-table-link">https://amzn.to/2N8MJmk</a></td>            
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="30">Nursing bras - 6x</td>
+            <td class="shopping-list-recommendation">&mdash;</td>                                                                        
             <td class="shopping-list-type">Stuff for mommy</td>
             <td class="shopping-list-need">Mandatory</td>            
             <td class="shopping-list-time" data-order="5">month 5</td>
+            <td class="shopping-list-amazon"></td>            
+            <td class="shopping-list-amazon-url"></td>                
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="30">Breast pads - 6x</td>
+            <td class="shopping-list-recommendation">&mdash;</td>                                                                        
             <td class="shopping-list-type">Stuff for mommy</td>
             <td class="shopping-list-need">Mandatory</td>            
             <td class="shopping-list-time" data-order="5">month 5</td>
+            <td class="shopping-list-amazon"></td>        
+            <td class="shopping-list-amazon-url"></td>                    
           </tr>
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="30">Maternity tops - 6x</td>
+            <td class="shopping-list-recommendation">&mdash;</td>                                                            
             <td class="shopping-list-type">Stuff for mommy</td>
             <td class="shopping-list-need">Mandatory</td>            
             <td class="shopping-list-time" data-order="5">month 5</td>
+            <td class="shopping-list-amazon"></td>            
+            <td class="shopping-list-amazon-url"></td>                
           </tr>
           
           <!-- Getting ready -->            
 
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="10"><a class="dotted soft-scroll" href="#apps">Apps</a></td>
+            <td class="shopping-list-recommendation"><a class="dotted soft-scroll" href="#apps">Multiple</a></td>                                                
             <td class="shopping-list-type">Getting ready</td>
             <td class="shopping-list-need">Nice to have</td>            
             <td class="shopping-list-time" data-order="2">month 2</td>
+            <td class="shopping-list-amazon"></td>
+            <td class="shopping-list-amazon-url"></td>                
           </tr>
           
           <tr class="hide-initially">
             <td class="shopping-list-item" data-order="10"><a class="dotted soft-scroll" href="#books">Books</a></td>
+            <td class="shopping-list-recommendation"><a class="dotted soft-scroll" href="#books">Multiple</a></td>                                    
             <td class="shopping-list-type">Getting ready</td>
             <td class="shopping-list-need">Mandatory</td>            
             <td class="shopping-list-time" data-order="2">month 2</td>                        
+            <td class="shopping-list-amazon"></td>
+            <td class="shopping-list-amazon-url"></td>                     
           </tr>
           
           <tr class="hide-initially">
-            <td class="shopping-list-item" data-order="10"><a class="dotted soft-scroll" href="#maternity-pillow">Maternity Pillow</a></td>
+            <td class="shopping-list-item" data-order="10"><a class="dotted soft-scroll" href="#maternity-pillow">Maternity pillow</a></td>
+            <td class="shopping-list-recommendation"><a class="dotted soft-scroll" href="#maternity-pillow">Leachco Snoogle Maternity Pillow</a></td>                        
             <td class="shopping-list-type">Getting ready</td>
             <td class="shopping-list-need">Mandatory</td>            
             <td class="shopping-list-time" data-order="2">month 2</td>
+            <td class="shopping-list-amazon"><a target="_new" href="https://amzn.to/2MLzdVp" class="click-table-link"><i class="fab fa-amazon"></i></a></td>            
+            <td class="shopping-list-amazon-url">https://amzn.to/2MLzdVp</td>            
           </tr>
           
         </tbody>
@@ -775,6 +1035,11 @@
             <p>Both apps were helpful for reading timely articles related to your stage of pregnancy.</p>
             <p>The Bump: <a target="_new" href="https://itunes.apple.com/us/app/the-bump-daily-pregnancy-and-baby-tracker/id568940747?mt=8">iTunes</a>, <a target="_new" href="https://play.google.com/store/apps/details?id=com.xogrp.thebump&hl=en">Android</a></p>
             <p>Ovia: <a target="_new" href="https://itunes.apple.com/us/app/ovia-pregnancy-tracker/id719135369?mt=8">iTunes</a>, <a target="_new" href="https://play.google.com/store/apps/details?id=com.ovuline.pregnancy&hl=en_US">Android</a></p>
+            <br />
+            <h5>For both parents, post-birth</h5>
+            <h4>The Wonder Weeks</h4>
+            <p>For amazing insights into the growth leaps your baby will make, and when to expect difficult times during profound periods of growth.</p>
+            <p><a target="_new" href="https://itunes.apple.com/us/app/the-wonder-weeks/id529815782?mt=8">iTunes</a>, <a target="_new" href="https://play.google.com/store/apps/details?id=org.twisevictory.apps&hl=en_US">Android</a></p>
           </div>
           <div class="col-sm">      
             <h5>For him</h5>

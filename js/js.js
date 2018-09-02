@@ -43,7 +43,7 @@ $('#view-spreadsheet').click(function(){
 
 $('.click-purchase-link').click(function(){
   if (isProductionEnvironment()) {
-    mixpanel.track("Click purchase link");	
+    mixpanel.track("Clicked purchase link in product details");	
   }  
 });
 
@@ -66,6 +66,12 @@ $('.click-about').click(function(){
     mixpanel.track("Clicked about in header");	
   }  
   smoothScrollTo("about");
+});
+
+$('.click-table-link').click(function(){
+  if (isProductionEnvironment()) {
+    mixpanel.track("Clicked purchase link in table");	
+  }  
 });
 
 // Native smooth scroll to element

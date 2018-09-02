@@ -188,7 +188,10 @@ th {
   border: none !important;
   font-weight: bold;
 }
-
+.shopping-list-amazon-url {
+  display: none;
+  font-size: 9pt;
+}
 
 
 /* IMAGES
@@ -354,8 +357,12 @@ img.photo {
     min-width: 80px;
     padding: 5px 7px !important;
   }
+  /* th.shopping-list-recommendation, */
+  /* td.shopping-list-recommendation, */
+  th.shopping-list-type,
   th.shopping-list-need,
   th.shopping-list-time,
+  td.shopping-list-type,
   td.shopping-list-need,
   td.shopping-list-time {
 	 display: none;
@@ -440,8 +447,12 @@ img.photo {
     min-width: 100px;
     padding: 7px 12px !important;
   }
+  /* th.shopping-list-recommendation, */
+  /* td.shopping-list-recommendation, */
   th.shopping-list-type,
+  th.shopping-list-need,
   th.shopping-list-time,
+  td.shopping-list-need,
   td.shopping-list-type,
   td.shopping-list-time {
 	 display: table-cell;
@@ -507,4 +518,14 @@ img.photo {
   .about {
     display: none;		
   }
+  .footer {
+    display: none;			
+  }
+  .shopping-list-amazon-url {
+    display: table-cell;
+  }
+  .shopping-list-recommendation {
+    display: table-cell;	
+  }
+
 }
